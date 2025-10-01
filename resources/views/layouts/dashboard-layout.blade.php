@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>RTI Dashboard</title>
+    <title>HGCD SMART APP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -29,7 +29,7 @@
                         </svg>
                     </button>
                     <a href="{{ url('/') }}" class="flex ms-2 md:me-24">
-                        <span class="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap text-sky-700">RTI
+                        <span class="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap text-sky-700">HGCD
                             <span class="hidden font-thin md:inline text-slate-400">Dashboard</span>
                     </a>
                 </div>
@@ -152,9 +152,10 @@
             {{ $slot }}
         </div>
     </div>
+
     {{-- change password modal --}}
 
-    @livewire('auth.change-password')
+    {{-- @livewire('auth.change-password') --}}
 
     <livewire:modals />
     <livewire:scripts />

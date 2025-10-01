@@ -8,6 +8,7 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\View\View;
+use Nullix\JsAesPhp\JsAesPhp;
 
 class AuthenticatedSessionController extends Controller
 {
@@ -24,6 +25,18 @@ class AuthenticatedSessionController extends Controller
      */
     public function store(LoginRequest $request): RedirectResponse
     {
+        $secretKey = session()->getId();
+
+        $decryptedPassword = JsAesPhp::decrypt($request->input('password'), $secretKey);
+        $decryptedEmail = JsAesPhp::decrypt($request->input('email'), $secretKey);
+        $uniqueId = JsAesPhp::decrypt($request->input('uniqueId'), $secretKey);
+        $request->merge([
+            'email' => $decryptedEmail,
+            'password' => $decryptedPassword,
+            'uniqueId' => $uniqueId,
+            'decryptedPassword' => $decryptedPassword
+        ]);
+
         $request->authenticate();
 
         $request->session()->regenerate();
