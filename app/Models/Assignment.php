@@ -20,4 +20,9 @@ class Assignment extends Model
     {
         return $this->hasOne(LocationMaster::class, 'id', 'location_id');
     }
+
+    public function photoVerifications()
+    {
+        return $this->hasMany(PhotoVerification::class, 'assignment_id', 'id');
+    }
 }

@@ -103,10 +103,10 @@
                                     class="px-3 py-1.5 bg-gray-50 text-gray-700 rounded-lg text-xs font-semibold hover:bg-gray-100">
                                     Delete
                                 </button>
-                                <button wire:click="delete({{ $employee->id }})"
+                                <a href="{{ route('viewIndividualAssignments', ['empID' => $employee->id]) }}"
                                     class="px-3 py-1.5 bg-green-50 text-green-700 rounded-lg text-xs font-semibold hover:bg-green-100">
                                     Assignments
-                                </button>
+                                </a>
                             </div>
                         </td>
                     </tr>

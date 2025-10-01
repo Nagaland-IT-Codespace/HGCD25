@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Livewire\ManageDistricts;
 use App\Livewire\ManageEmployees;
 use App\Livewire\ManageLocations;
+use App\Livewire\ViewIndividualAssignments;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -24,6 +25,7 @@ Route::middleware('auth')->group(function () {
     Route::get('manageDistricts', ManageDistricts::class)->name('manageDistricts');
     Route::get('manageLocations', ManageLocations::class)->name('manageLocations');
     Route::get('manageEmployees', ManageEmployees::class)->name('manageEmployees');
+    Route::get('viewIndividualAssignments/{empID}', ViewIndividualAssignments::class)->name('viewIndividualAssignments');
 });
 
 require __DIR__ . '/auth.php';
