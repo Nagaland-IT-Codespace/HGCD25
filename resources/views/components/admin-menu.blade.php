@@ -28,6 +28,11 @@
                             class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100">
                             Manage Districts</a>
                     </li>
+                    <li>
+                        <a href="{{ route('manageLocations') }}"
+                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100">
+                            Manage Locations</a>
+                    </li>
 
                 </ul>
             </li>

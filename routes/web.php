@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Livewire\ManageDistricts;
+use App\Livewire\ManageLocations;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -20,6 +21,7 @@ Route::middleware('auth')->group(function () {
 
     // Management Routes
     Route::get('manageDistricts', ManageDistricts::class)->name('manageDistricts');
+    Route::get('manageLocations', ManageLocations::class)->name('manageLocations');
 });
 
 require __DIR__ . '/auth.php';
