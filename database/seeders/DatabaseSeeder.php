@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
             AdminUserSeeder::class,
             DistrictMasterSeeder::class,
             EmployeeSeeder::class,
+            LocationSeeder::class,
         ]);
     }
 }

@@ -15,7 +15,6 @@ class EmployeeSeeder extends Seeder
      */
     public function run(): void
     {
-        Employee::truncate();
         $csvFile = fopen(base_path("database/datasets/hgcdEmp.csv"), "r");
 
         $firstline = true;
