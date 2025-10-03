@@ -79,9 +79,9 @@ class AddEditEmployee extends Component
                 ]
             );
             DB::commit();
+            $this->dispatch('operationCompleted');
             $this->dispatch('swal', ['type' => 'success', 'message' => 'Employee saved successfully!']);
             $this->dispatch('hideTailwindModal');
-            $this->dispatch('operationCompleted');
         } catch (\Exception $e) {
             DB::rollBack();
             $this->dispatch('swal', ['type' => 'error', 'message' => 'An error occurred: ' . $e->getMessage()]);
