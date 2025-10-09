@@ -16,4 +16,6 @@ Route::prefix('utils')->group(function () {
 
 // Route::prefix('assignments')->group(function () {
     Route::post('/assignments', [\App\Http\Controllers\Api\ApiAssignmentsController::class, 'getAssignments']);
+
+    Route::post('/assignments/upload-photo', [\App\Http\Controllers\Api\ApiAssignmentsController::class, 'uploadPhoto']);
 // });

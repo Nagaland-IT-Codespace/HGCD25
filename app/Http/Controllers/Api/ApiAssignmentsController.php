@@ -7,6 +7,8 @@ use App\Models\Assignment;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Validator;
 
 class ApiAssignmentsController extends Controller
 {
@@ -16,7 +18,7 @@ class ApiAssignmentsController extends Controller
         $location_id = $request->query('location_id');
         $assignment_date = $request->query('assignment_date');
 
-       
+
         if ($location_id) {
             $query->where('location_id', $location_id);
         }
@@ -24,8 +26,8 @@ class ApiAssignmentsController extends Controller
         //     $query->whereDate('assignment_date', $request->query('assignment_date'));
         // }
 
-        $query->with(['employee', 'location']); 
-        $perPage = $request->query('per_page', 10); 
+        $query->with(['employee', 'location']);
+        $perPage = $request->query('per_page', 10);
         $assignments = $query->paginate($perPage);
 
         $assignments->through(function ($assignment) {
@@ -38,9 +40,37 @@ class ApiAssignmentsController extends Controller
                 'location_name' => $assignment->location ? $assignment->location->name : 'N/A',
             ];
         });
-        Log::info('Assignments fetched', ['filters' => $request->all(), 'count' => $assignments->count()]);
 
 
         return response()->json($assignments);
+    }
+    public function uploadPhoto(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'assignment_id' => 'required|exists:assignments,id',
+            'photo' => 'required|string', // base64 string
+            'latitude' => 'nullable|numeric',
+            'longitude' => 'nullable|numeric',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json($validator->errors(), 422);
+        }
+
+        $base64Image = $request->input('photo');
+        $image = base64_decode($base64Image);
+
+        if ($image === false) {
+            return response()->json(['message' => 'Base64 decode failed.'], 400);
+        }
+
+        $filepath = 'assignments/' . $request->input('assignment_id') . '/' . uniqid() . '.jpeg';
+        Storage::disk('public')->put($filepath, $image);
+
+
+        return response()->json([
+            'message' => 'Photo uploaded successfully!',
+            'path' => $filepath,
+        ], 200);
     }
 }
