@@ -17,31 +17,50 @@ class ApiAssignmentsController extends Controller
     public function getAssignments(Request $request)
     {
         $query = Assignment::query();
-        $location_id = $request->query('location_id');
-        $assignment_date = $request->query('assignment_date');
 
+        $location_id = $request->input('location_id');
+        $date_of_assignment = $request->input('date_of_assignment');
 
         if ($location_id) {
+            Log::info('Filtering assignments by location_id: ' . $location_id);
             $query->where('location_id', $location_id);
         }
-        // if ($assignment_date) {
-        //     $query->whereDate('assignment_date', $request->query('assignment_date'));
-        // }
+        if ($date_of_assignment) {
+            Log::info('Filtering assignments by date_of_assignment: ' . $date_of_assignment);
+            $query->where('date_of_assignment',Carbon::parse($date_of_assignment)->format('Y-m-d'));
+        }
 
-        $query->with(['employee', 'location']);
-        $perPage = $request->query('per_page', 10);
+        $query->with(['employee', 'location.district', 'photoVerifications']);
+
+        $perPage = $request->input('per_page', 10);
         $assignments = $query->paginate($perPage);
 
-        $assignments->through(function ($assignment) {
-            return [
-                'id' => $assignment->id,
-                'name' => $assignment->employee ? $assignment->employee->full_name : 'N/A',
-                'date_of_assignment' => $assignment->date_of_assignment,
-                'status' => $assignment->status,
-                'district_name' => $assignment->location ? $assignment->location->district->name : 'N/A',
-                'location_name' => $assignment->location ? $assignment->location->name : 'N/A',
-            ];
-        });
+        $assignments->getCollection()->load('employee', 'location.district', 'photoVerifications');
+
+        $assignments->setCollection(
+            $assignments->getCollection()->map(function ($assignment) {
+                return [
+                    'id' => $assignment->id,
+                    'name' => $assignment->employee ? $assignment->employee->full_name : 'N/A',
+                    'date_of_assignment' => $assignment->date_of_assignment,
+                    'status' => $assignment->status,
+                    'district_name' => $assignment->location && $assignment->location->district
+                        ? $assignment->location->district->name
+                        : 'N/A',
+                    'location_name' => $assignment->location ? $assignment->location->name : 'N/A',
+                    
+                    'photo_verifications' => $assignment->photoVerifications->map(function ($photo) {
+                        return [
+                            'id' => $photo->id,
+                            'photo_url' => url(Storage::url($photo->photo_url)),
+                            'verified_by' => $photo->verified_by,
+                            'remarks' => $photo->remarks,
+                            'created_at' => Carbon::parse($photo->created_at)->toDateTimeString(),
+                        ];
+                    }),
+                ];
+            })
+        );
 
 
         return response()->json($assignments);
