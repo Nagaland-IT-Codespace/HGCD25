@@ -17,4 +17,6 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::post('/assignments', [\App\Http\Controllers\Api\ApiAssignmentsController::class, 'getAssignments']);
 
     Route::post('/assignments/upload-photo', [\App\Http\Controllers\Api\ApiAssignmentsController::class, 'uploadPhoto']);
+
+    Route::get('/employees', [\App\Http\Controllers\Api\ApiEmployeeController::class, 'getEmployees']);
 });
