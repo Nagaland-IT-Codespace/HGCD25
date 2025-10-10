@@ -8,14 +8,13 @@ use Illuminate\Support\Facades\Route;
 Route::post('/login', [\App\Http\Controllers\Api\ApiAuthController::class, 'login']);
 
 
-Route::prefix('utils')->group(function () {
-    Route::get('/districts', [\App\Http\Controllers\Api\ApiUtilsController::class, 'getDistricts']);
-    Route::get('/locations', [\App\Http\Controllers\Api\ApiUtilsController::class, 'getLocations']);
-});
+Route::middleware('auth:sanctum')->group(function () {
+    Route::prefix('utils')->group(function () {
+        Route::get('/districts', [\App\Http\Controllers\Api\ApiUtilsController::class, 'getDistricts']);
+        Route::get('/locations', [\App\Http\Controllers\Api\ApiUtilsController::class, 'getLocations']);
+    });
 
-
-// Route::prefix('assignments')->group(function () {
     Route::post('/assignments', [\App\Http\Controllers\Api\ApiAssignmentsController::class, 'getAssignments']);
 
     Route::post('/assignments/upload-photo', [\App\Http\Controllers\Api\ApiAssignmentsController::class, 'uploadPhoto']);
-// });
+});

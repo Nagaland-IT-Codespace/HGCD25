@@ -4,8 +4,10 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Models\Assignment;
+use App\Models\PhotoVerification;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
@@ -48,7 +50,7 @@ class ApiAssignmentsController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'assignment_id' => 'required|exists:assignments,id',
-            'photo' => 'required|string', // base64 string
+            'photo' => 'required|string',
             'latitude' => 'nullable|numeric',
             'longitude' => 'nullable|numeric',
         ]);
@@ -67,10 +69,20 @@ class ApiAssignmentsController extends Controller
         $filepath = 'assignments/' . $request->input('assignment_id') . '/' . uniqid() . '.jpeg';
         Storage::disk('public')->put($filepath, $image);
 
+        PhotoVerification::create([
+            'assignment_id' => $request->input('assignment_id'),
+            'verified_by' => Auth::id(),
+            'photo_url' => $filepath,
+            'remarks' => 'Photo uploaded via mobile app',
+        ]);
+
+        Assignment::where('id', $request->input('assignment_id'))->update([
+            'status' => 'Completed',
+        ]);
+
 
         return response()->json([
             'message' => 'Photo uploaded successfully!',
-            'path' => $filepath,
         ], 200);
     }
 }
