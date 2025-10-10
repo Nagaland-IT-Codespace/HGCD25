@@ -70,7 +70,6 @@ class ApiAssignmentsController extends Controller
     }
     public function uploadPhoto(Request $request)
     {
-        Log::info('Received photo upload request', $request->all());
         $validator = Validator::make($request->all(), [
             'assignment_id' => 'required|exists:assignments,id',
             'photo' => 'required|string',
@@ -102,7 +101,6 @@ class ApiAssignmentsController extends Controller
             $watermarkText2 = "Time: {$timestamp}";
 
             if ($latitude && $longitude) {
-                // Lat/Lon line
                 $image->text(
                     text: $watermarkText1,
                     x: 20,
@@ -116,7 +114,6 @@ class ApiAssignmentsController extends Controller
                     }
                 );
 
-                // Timestamp line
                 $image->text(
                     text: $watermarkText2,
                     x: 20,
@@ -130,7 +127,6 @@ class ApiAssignmentsController extends Controller
                 );
             }
 
-            // Define path and save
             $filepath = 'assignments/' . $request->input('assignment_id') . '/' . uniqid() . '.jpeg';
 
             Storage::disk('public')->put(
@@ -138,7 +134,6 @@ class ApiAssignmentsController extends Controller
                 (string) $image->encodeByExtension('jpeg', quality: 90)
             );
 
-            // Save database entries
             PhotoVerification::create([
                 'assignment_id' => $request->input('assignment_id'),
                 'verified_by' => Auth::id(),
@@ -155,7 +150,6 @@ class ApiAssignmentsController extends Controller
                 'photo_url' => Storage::url($filepath),
             ], 200);
         } catch (Exception $e) {
-            // Log the error for debugging
             Log::error('Photo upload failed: ' . $e->getMessage());
 
             return response()->json([
