@@ -9,6 +9,7 @@ use Carbon\Carbon;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
@@ -190,5 +191,34 @@ class ApiAssignmentsController extends Controller
         });
 
         return response()->json($paginator);
+    }
+
+    public function addAssignment(Request $request)
+    {
+        $data = $request->validate([
+            'employee_id' => 'required|exists:employees,id',
+            'location_id' => 'required|exists:location_masters,id',
+            'date_of_assignment' => 'required|date',
+            'from_time' => 'required',
+            'to_time' => 'required',
+            'status' => 'required|string',
+        ]);
+
+        try {
+            $assignment = DB::transaction(function () use ($data) {
+                return Assignment::create($data);
+            });
+
+            $assignment->load('location.district');
+
+            return response()->json([
+                'message' => 'Assignment saved successfully',
+            ], 201);
+        } catch (\Exception $e) {
+            return response()->json([
+                'message' => 'Error saving assignment',
+                'error' => $e->getMessage()
+            ], 500);
+        }
     }
 }
