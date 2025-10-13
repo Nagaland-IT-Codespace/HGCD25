@@ -90,25 +90,24 @@ class ApiAssignmentsController extends Controller
                 throw new Exception('Base64 decode failed.');
             }
 
-            // Create Intervention Image instance (v3 API)
             $image = Image::read($imageData);
 
-            // Extract metadata
             $latitude = $request->input('latitude');
             $longitude = $request->input('longitude');
             $timestamp = now()->format('Y-m-d H:i:s');
 
             $watermarkText1 = "Lat: {$latitude}, Lon: {$longitude}";
             $watermarkText2 = "Time: {$timestamp}";
-
+            $fontFile = public_path('assets/fonts/Roboto-Regular.ttf');
             if ($latitude && $longitude) {
                 $image->text(
                     text: $watermarkText1,
                     x: 20,
-                    y: $image->height() - 50,
-                    font: function ($font) {
+                    y: $image->height() - 100,
+                    font: function ($font) use ($fontFile) {
+                        $font->file($fontFile);
 
-                        $font->size(400);
+                        $font->size(30);
                         $font->color('rgba(255,255,255,0.9)');
                         $font->align('left');
                         $font->valign('bottom');
@@ -118,9 +117,10 @@ class ApiAssignmentsController extends Controller
                 $image->text(
                     text: $watermarkText2,
                     x: 20,
-                    y: $image->height() - 20,
-                    font: function ($font) {
-                        $font->size(400);
+                    y: $image->height() - 40,
+                    font: function ($font) use ($fontFile) {
+                        $font->file($fontFile);
+                        $font->size(30);
                         $font->color('rgba(255,255,255,0.9)');
                         $font->align('left');
                         $font->valign('bottom');
