@@ -1,22 +1,28 @@
 <?php
 
+use App\Http\Controllers\Api\ApiAssignmentsController;
+use App\Http\Controllers\Api\ApiAuthController;
+use App\Http\Controllers\Api\ApiEmployeeController;
+use App\Http\Controllers\Api\ApiUtilsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 
 
-Route::post('/login', [\App\Http\Controllers\Api\ApiAuthController::class, 'login']);
+Route::post('/login', [ApiAuthController::class, 'login']);
 
 
 Route::middleware('auth:sanctum')->group(function () {
     Route::prefix('utils')->group(function () {
-        Route::get('/districts', [\App\Http\Controllers\Api\ApiUtilsController::class, 'getDistricts']);
-        Route::get('/locations', [\App\Http\Controllers\Api\ApiUtilsController::class, 'getLocations']);
+        Route::get('/districts', [ApiUtilsController::class, 'getDistricts']);
+        Route::get('/locations', [ApiUtilsController::class, 'getLocations']);
     });
 
-    Route::post('/assignments', [\App\Http\Controllers\Api\ApiAssignmentsController::class, 'getAssignments']);
+    Route::post('/assignments', [ApiAssignmentsController::class, 'getAssignments']);
 
-    Route::post('/assignments/upload-photo', [\App\Http\Controllers\Api\ApiAssignmentsController::class, 'uploadPhoto']);
+    Route::post('/assignments/upload-photo', [ApiAssignmentsController::class, 'uploadPhoto']);
 
-    Route::get('/employees', [\App\Http\Controllers\Api\ApiEmployeeController::class, 'getEmployees']);
+    Route::get('/employees', [ApiEmployeeController::class, 'getEmployees']);
+
+    Route::get('/assignments/employee/{employee_id}', [ApiAssignmentsController::class, 'getIndividualAssignments']);
 });

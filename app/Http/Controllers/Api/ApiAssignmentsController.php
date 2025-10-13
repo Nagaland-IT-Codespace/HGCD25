@@ -106,7 +106,7 @@ class ApiAssignmentsController extends Controller
                     x: 20,
                     y: $image->height() - 50,
                     font: function ($font) {
-                     
+
                         $font->size(400);
                         $font->color('rgba(255,255,255,0.9)');
                         $font->align('left');
@@ -157,5 +157,38 @@ class ApiAssignmentsController extends Controller
                 'error' => $e->getMessage(),
             ], 500);
         }
+    }
+
+
+    public function getIndividualAssignments(Request $request, $employee_id)
+    {
+        Log::info('Fetching assignments for employee_id: ' . $employee_id);
+        $perPage = (int) $request->query('per_page', 10); // default 10
+
+        $paginator = Assignment::where('employee_id', $employee_id)
+            ->with(['location.district', 'photoVerifications'])
+            ->orderBy('date_of_assignment', 'DESC')
+            ->paginate($perPage);
+
+        $paginator->getCollection()->transform(function ($assignment) {
+            return [
+                'id' => $assignment->id,
+                'date_of_assignment' => $assignment->date_of_assignment,
+                'status' => $assignment->status,
+                'district_name' => optional(optional($assignment->location)->district)->name ?? 'N/A',
+                'location_name' => optional($assignment->location)->name ?? 'N/A',
+                'photo_verifications' => collect($assignment->photoVerifications?->map(function ($photo) {
+                    return [
+                        'id' => $photo->id,
+                        'photo_url' => url(Storage::url($photo->photo_url)),
+                        'verified_by' => $photo->verified_by,
+                        'remarks' => $photo->remarks,
+                        'created_at' => Carbon::parse($photo->created_at)->toDateTimeString(),
+                    ];
+                }))->values()->all(),
+            ];
+        });
+
+        return response()->json($paginator);
     }
 }
