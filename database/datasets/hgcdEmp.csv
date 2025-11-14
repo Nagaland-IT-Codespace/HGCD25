@@ -39,3 +39,870 @@ id,emp_code,full_name,dob,fathers_name,gender,office_name,district,designation,t
 38,HGD00313,SHRI. SULANTHUNG  ,1969-04-21,PHYSO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
 39,HGD00315,SHRI. T.ZUCHANBEMO  ,1979-03-04,THUNGBAMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
 40,HGD00316,SHRI. BOTSA  ,1970-04-12,MERITHUNG,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+41,HGD00317,SHRI. RHANTHUNGO  ,1973-01-26,ZUBEMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+42,HGD00321,SHRI. PHYOCHIBEMO  ,1982-03-15,SORENTHUNG,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+43,HGD00323,SHRI. CHANCHIO  ,1978-09-25,RENCHUMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+44,HGD00324,SHRI. NRICHEN  ,1976-03-19,TAJOLO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+45,HGD00326,SHRI. SHANPANTHUNG  ,1979-09-06,TSOPEMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+46,HGD00327,SHRI. JONAH  ,1965-09-18,CHUMREMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+47,HGD00329,SHRI. YENTSAO  ,1980-07-13,YANBANSHIO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+48,HGD00330,SHRI. NZANTHUNG  ,1989-05-03,RENTHUNGO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+49,HGD00331,SHRI. RENJAMO  ,1988-06-01,YISANBEMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+50,HGD00333,SHRI. OCHUMTHUNG  ,1989-02-28,LONGTSUO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+51,HGD00334,SHRI. MHONKHAO  ,1987-08-07,MHATHUNG,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+52,HGD00336,SHRI. CHUMTHUNGO  ,1978-11-14,PENTHUNGO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+53,HGD00337,SHRI. KHABENTHUNG  ,1988-04-15,MYOVO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+54,HGD00338,SHRI. R.ZUBEMO  ,1979-03-11,RULANBOMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+55,HGD00339,SHRI. ZULANBEMO  ,1989-12-28,RENCHIO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+56,HGD00340,SHRI. NONGOTHUNG  KIKON,1983-07-08,NLIYIMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+57,HGD00342,SHRI. ZUCHUMO  ,1976-04-21,YANBANSHIO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+58,HGD00345,SHRI. JITU PRAKHAN  ,1980-05-16,LT.T.PRADHAN,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),OTHERS
+59,HGD00347,SHRI. B.WONGTO CHANG  ,1972-12-11,BEMO CHANG,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),CHANG
+60,HGD00350,SHRI. TSATHINGMONG STM  ,1976-08-14,TSAYANYE STM,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),SANGTAM
+61,HGD00351,SHRI. KUSHAM CHANG  ,1972-07-01,MENYAMONG,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),CHANG
+62,HGD00352,SHRI. YONGMEI PHOM  ,1974-04-04,KHONGBE PHOM,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),PHOM
+63,HGD00353,SHRI. HORISE STM  ,1979-10-08,TSAYAMTSING,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),SANGTAM
+64,HGD00354,SHRI. SAMSON CHANG  ,1979-01-30,YANGBA CHANG,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),CHANG
+65,HGD00355,SHRI. R.IMTINUNGSHANG CHANG  ,1976-07-15,RONGRABUKHUM,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),CHANG
+66,HGD00357,SMTI. SEJUNGLA STM  ,1978-07-17,YUTHSASE,F,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),SANGTAM
+67,HGD00358,SHRI. THONGO KHIAM  ,1983-09-16,KHAOSHAI,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),KHIAMNIUNGAN
+68,HGD00362,SHRI. LAKIMONG  ,1969-03-12,KIUKHANGBA,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),YIMKHIUNG
+69,HGD00363,SHRI. MEHIPE  ,1988-12-16,KEWETSO,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+70,HGD00364,SHRI. NZANTHUNG  ,1980-03-24,NCHIO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+71,HGD00367,SHRI. JOHN CHAKHESANG  ,1982-02-04,TASONI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+72,HGD00371,SHRI. IMLONGCHUBA  ,1987-01-11,R.YANCHU,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),CHANG
+73,HGD00373,SHRI. HIKATO WOTSA  ,1990-10-26,KHUHOVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+74,HGD00374,SHRI. CHUSO  ,1993-04-24,T.YETILE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),POCHURY
+75,HGD00380,SHRI. ELLIS  ,1980-01-01,YESANBEMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+76,HGD00381,SHRI. NYEMLANG  ,1990-04-01,NYAMPAI,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+77,HGD00385,SHRI. KITILO  ,1991-05-05,HILLO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+78,HGD00392,SHRI. NOKYUH  ,1985-12-10,TAHYAT,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+79,HGD00404,SHRI. SHEVOTA  ,1992-04-11,SEKHOTSO,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+80,HGD00415,SHRI. GAPANG  ,1982-10-08,LAPHO,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+81,HGD00417,SHRI. YAVITO  ,1984-10-12,ZUTOVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+82,HGD00421,SHRI. GANGA CHETRI  ,1984-07-01,M.CHETRI,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),OTHERS
+83,HGD00425,SHRI. VIHOSHE  ,1983-10-11,LT. KHUZHUTHA,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+84,HGD00426,SHRI. OKMSON  ,1970-01-01,SANGUTUI,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),KHIAMNIUNGAN
+85,HGD00427,SHRI. NUPATO SHOHE  ,1977-01-15,HEKIKHE,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+86,HGD00428,SHRI. ATOHO  ,1990-03-20,YEHEVI,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+87,HGD00430,SHRI. THEJONG PHOM  ,1978-02-16,CHINGONG,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),PHOM
+88,HGD00431,SHRI. VINITO  ,1988-11-18,SUKHEVI,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+89,HGD00437,SHRI. IMBOTIBA  ,1988-05-28,TALIMEREN,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),AO
+90,HGD00441,SHRI. NUNGSHI  ,1978-02-04,SHIHOKHE,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+91,HGD00442,SHRI. ZHEPHUTO  ,1984-07-09,THUPOUSHI,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+92,HGD00443,SHRI. TOVIHO  ,1988-12-24,YESHITO,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+93,HGD00446,SMTI. RULINGUNUO  ,1974-04-15,IMKONGTEMSU,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),ANGAMI
+94,HGD00447,SMTI. BHAGWATI  ,1977-11-06,YESHIKA,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),OTHERS
+95,HGD00448,SMTI. S.VINILI  ,1975-10-12,IYEKHU,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+96,HGD00449,SMTI. PANGJUNGLEPLA  ,1970-03-03,MEREN,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),AO
+97,HGD00452,SHRI. SONILO RENGMA  ,1982-05-01,SAJUKHA,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),RENGMA
+98,HGD00456,SHRI. MASAWATI  ,1973-05-03,REPALIBA,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),AO
+99,HGD00458,SHRI. SATOVI  ,1978-03-13,HOKUGHA,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),SUMI
+100,HGD00460,SHRI. KUMAR THAPA  ,1972-02-13,RAM THAPA,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),OTHERS
+101,HGD00464,SHRI. AKUMWATI  ,1988-02-03,LONGRITEMJEN,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),AO
+102,HGD00465,SHRI. KUGHAZHE  ,1985-12-01,KIHOTO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+103,HGD00466,SHRI. HINOTO  ,1987-09-20,HOKIYE,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),SUMI
+104,HGD00467,SHRI. HOKATO  ,1989-09-15,HOTOVI,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+105,HGD00469,SHRI. KHRIETUO  ,1986-01-07,THESUOHIE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),ANGAMI
+106,HGD00470,SHRI. T.HUTOVI  ,1984-03-18,LT. THILLIPHO,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+107,HGD00471,SHRI. A.INATO  ,1988-01-04,P.AHOTO,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),SUMI
+108,HGD00473,SHRI. AKAVI CHISHI  ,1991-10-03,YEHEVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+109,HGD00475,SHRI. ALOVI  ,1984-09-10,GHONIVI,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+110,HGD00477,SHRI. KATOVI  ,1982-06-01,TOKISHE,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+111,HGD00481,SHRI. VIKUTO  ,1986-09-13,NISHENA,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+112,HGD00484,SHRI. IMRONGNUNGBA  ,1985-10-11,IMTITEMSU,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),AO
+113,HGD00485,SHRI. R.THSANSO  ,1983-07-04,RONGKIU,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),YIMKHIUNG
+114,HGD00486,SMTI. MAYANGNARO  ,1983-03-15,PURA JAMIR,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),AO
+115,HGD00488,SHRI. SHIKAI  ,1986-03-03,NIHASHE,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+116,HGD00490,SMTI. TESEYA  ,1985-12-16,CHENCHU,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),RENGMA
+117,HGD00492,SHRI. ALEMTUBA  ,1985-07-06,LOLENCHIBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+118,HGD00494,SHRI. RONGSENNUNGBA  ,1971-07-04,IMOTEMJEN,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+119,HGD00496,SHRI. TOSHIWAPANG  ,1978-01-07,MAYANGTEMJEN,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+120,HGD00497,SHRI. TOSHIYANGER  ,1978-11-01,IMPOKYIM CHANG,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+121,HGD00500,SMTI. C.AKUMLA  ,1976-08-30,ALONG,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+122,HGD00501,SHRI. LANUWATI  ,1975-09-24,TSUKNUNGNIKIN,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+123,HGD00502,SHRI. IMNASUBO  ,1976-02-04,IMSUTEMJEN,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+124,HGD00504,SHRI. TAKUSUNEP  ,1980-04-21,MOAKHABA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+125,HGD00505,SHRI. LIPOKTOSHI  ,1976-04-01,SUPONGRENBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+126,HGD00507,SMTI. TIALEMLA  ,1973-01-25,LT. LANUYAPANG,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+127,HGD00508,SHRI. LIMAKUMBA  ,1974-01-30,TSUKNUNGNIKEN,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+128,HGD00509,SMTI. TEMSUZENLA  ,1977-06-21,TONGPANGMAR,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+129,HGD00512,SHRI. MOASANGBA  ,1981-05-31,IMTICHUCHANG,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+130,HGD00517,SMTI. MERENTULA  ,1973-11-01,YANGERNUNGSANG,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+131,HGD00518,SHRI. KIJUNGLUBA  ,1974-09-21,WAITUBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+132,HGD00519,SMTI. WATIKUMLA  ,1976-02-19,NUNGSHIYANGER,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+133,HGD00525,SHRI. YUPANGTEMJEN  ,1990-08-05,BENDANGMONGBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+134,HGD00526,SHRI. MOANUKSHI  ,1994-07-25,L.WAIBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+135,HGD00527,SHRI. TSUKJEMMEREN  ,1974-09-21,WUJATHANGBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+136,HGD00532,SHRI. IMKONGYAPANG  ,1976-09-29,MOAMEREN,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+137,HGD00533,SHRI. RAM KUMAR RAI  ,1970-01-01,DIK DAR RAI,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),OTHERS
+138,HGD00534,SHRI. NUNSANGTUBA  ,1971-02-14,YARTUBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+139,HGD00535,SHRI. SENTONGLEMBA  ,1978-04-21,MUYACHUNGSHI,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+140,HGD00537,SHRI. ALONG CHANG  ,1979-08-30,HEMYONG CHANG,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),CHANG
+141,HGD00539,SHRI. MULONGLEMBA  ,1978-02-21,YANGERLEMBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+142,HGD00542,SHRI. PANGERNUKSHI  ,1970-12-04,LANUSUBO,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+143,HGD00543,SHRI. BANDANGMONGBA  ,1975-07-25,IMTISUNEP,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+144,HGD00548,SMTI. WATISENLA  ,1979-06-24,LONGRITEMJEN,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+145,HGD00549,SMTI. TEMJENNARO  ,1978-06-14,LONKOKYANGBA,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+146,HGD00553,SMTI. IMTIJUNGLA  ,1973-03-13,NUNGSHITEMJEN,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+147,HGD00554,SMTI. TEMJENENLA  ,1974-09-21,TAKUNUNGBA,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+148,HGD00556,SHRI. PANGERWATI  ,1976-01-19,WAPANGTEMJEN,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+149,HGD00562,SHRI. MOAMEREN  ,1969-07-21,MOKOKLEMBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+150,HGD00564,SHRI. SANGLIPONG  ,1978-05-26,TIAMONGBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+151,HGD00569,SHRI. IMNAYANGER  ,1978-12-02,M. WATI YADEN,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+152,HGD00570,SMTI. IMTIMENLA  ,1974-02-28,CHUBAYANGER,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+153,HGD00573,SHRI. MANYAM  ,1971-07-17,LONGNYEI,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+154,HGD00575,SHRI. P AJONG KONYAK,1979-03-24,PHILAM KONYAK,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+155,HGD00576,SHRI. THAKPHA  ,1975-07-16,JEIHWANG,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+156,HGD00577,SHRI. MANPAI  KONYAK,1974-04-04,TAHPOK,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+157,HGD00578,SHRI. WANGSHOK  KONYAK,1977-06-25,THAIWANG,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+158,HGD00581,SHRI. TINGYON  ,1975-02-08,PANGNYAI,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+159,HGD00583,SHRI. KAHCHAN  ,1980-01-03,PANGLU,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+160,HGD00584,SHRI. WANGBA  ,1984-03-10,YENGTOK,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+161,HGD00585,SHRI. TRONBAN  ,1977-09-01,NOKOM,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+162,HGD00586,SHRI. PENYUH  ,1973-01-10,PENLEM,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+163,HGD00587,SHRI. PANAI  ,1977-08-16,TOTING,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+164,HGD00588,SHRI. JOKHO  ,1972-04-01,NAHNYEI,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+165,HGD00589,SHRI. MONGWANG  ,1982-01-01,YENWANG,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+166,HGD00590,SHRI. SEEMON  ,1983-03-07,CHONGSEMUNGBA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHANG
+167,HGD00594,SHRI. IMUNUNGSANG  ,1977-10-13,CHUBASANGBA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),AO
+168,HGD00596,SHRI. ORHUNIMO  ,1973-07-17,NRICHEN,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+169,HGD00597,SHRI. KHEGHOTO  ,1975-09-07,VISHIHO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),SUMI
+170,HGD00601,SHRI. IMLISUNEP  ,1979-04-24,TALITEMJEN,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),AO
+171,HGD00602,SHRI. S.RAI  ,1970-05-17,LT.JAYA BAHADUR,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),OTHERS
+172,HGD00604,SHRI. R.NZEO  ,1977-10-29,LT.RENTSAMO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+173,HGD00605,SHRI. MOCHULO  ,1974-04-04,KACHUNU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+174,HGD00606,SHRI. TINGPON  ,1970-04-03,LT.LONGTOK,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+175,HGD00608,SHRI. H.TOCHU  ,1977-03-03,LT.HANSO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),YIMKHIUNG
+176,HGD00609,SHRI. LONGSHITHUNG  ,1980-12-17,EKYIMO,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),LOTHA
+177,HGD00610,SHRI. M.MONO  ,1977-12-10,MONGTSOA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KHIAMNIUNGAN
+178,HGD00614,SHRI. YANBEN  ,1974-03-17,CHUMDEMO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+179,HGD00617,SHRI. YANPVUO  ,1976-10-26,NYANTHUNG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+180,HGD00618,SHRI. P.HOIKAI  ,1980-03-04,PONGYONG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+181,HGD00619,SHRI. YIANGLONG  ,1980-09-02,LONGYIANG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+182,HGD00620,SHRI. N.MHATHUNG  ,1977-03-11,NTHIO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+183,HGD00621,SHRI. PHONGNGEN  ,1976-04-06,KEILEM,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+184,HGD00622,SHRI. PHONGLIN  ,1974-06-06,METHLUNG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+185,HGD00624,SHRI. M.NYEI  ,1982-02-01,MANLIN,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+186,HGD00627,SHRI. TSUKJEMWATI  ,1976-12-07,TAKOMEREN,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),AO
+187,HGD00632,SHRI. THANGKHOHAO  ,1982-05-10,PAOLAL,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),KUKI
+188,HGD00633,SHRI. TAKUMOA  ,1977-09-09,LT.REPAKUMZUK,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+189,HGD00636,SHRI. ZHESHITO  ,1980-06-03,IHOJO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),SUMI
+190,HGD00637,SHRI. RUSHVULO  ,1979-11-19,LT.NGASENG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+191,HGD00638,SHRI. SUBENTHUNG  ,1977-08-10,KITHANGO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+192,HGD00639,SHRI. CHONTHUNGO  ,1984-04-27,CHUMDEMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+193,HGD00641,SHRI. TSALICHEM  ,1983-03-31,NYAKHUMONG,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),SANGTAM
+194,HGD00642,SHRI. PANGWANG  ,1979-09-01,PENNYEI,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+195,HGD00643,SHRI. T. HANGLONG  KONYAK,1988-10-06,TAPHA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+196,HGD00644,SHRI. RUOKUOLHOLIE  ,1982-08-15,KHRIEKRULIE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ANGAMI
+197,HGD00645,SHRI. SHANGTHING  ,1976-09-21,PUKHIU ,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),KHIAMNIUNGAN
+198,HGD00647,SHRI. BENDANGYANGER  ,1991-03-06,JOHN,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),AO
+199,HGD00651,SHRI. RULANTHUNG  ,1981-12-04,MYOVO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+200,HGD00652,SHRI. AMOS  ,1991-12-25,BENTHUNGO,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),LOTHA
+201,HGD00653,SHRI. THUPUSAYI  ,1985-02-12,KAHIZO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+202,HGD00654,SHRI. L.YANBA  ,1986-07-17,LUNGHA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),PHOM
+203,HGD00657,SHRI. SHWENYHUNLO  ,1987-09-13,TSICHYEKHIN,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+204,HGD00661,SHRI. DAVID SEB  ,1992-11-13,LT.NKHWENTSI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+205,HGD00663,SHRI. P.NYATHUNG  ,1987-05-14,PHYOPHIO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+206,HGD00666,SHRI. L.PUSHU  ,1972-10-11,LT.LONGSHA,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),KHIAMNIUNGAN
+207,HGD00667,SHRI. M.SANGTSOE  ,1975-09-18,LT.MONGTSOA,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),KHIAMNIUNGAN
+208,HGD00668,SHRI. HOKATO  ,1982-04-03,AKHAVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+209,HGD00670,SHRI. C.NZAMO  ,1985-04-14,CHIBOSAO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+210,HGD00671,SHRI. Y.IMTI  ,1975-03-23,LT.YANCHIKHUNG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),YIMKHIUNG
+211,HGD00673,SHRI. P.PUSHU  ,1978-04-20,PHUCHIE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KHIAMNIUNGAN
+212,HGD00674,SHRI. N.NZIO KIKON  ,1988-04-10,N.RIO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+213,HGD00676,SHRI. YEANGKUP  ,1983-08-04,METHLUNG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+214,HGD00678,SHRI. S.EWOTHUNG  ,1978-02-01,SOPHAMO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+215,HGD00679,SHRI. NOKE  ,1978-09-23,CHAINGNYAN,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+216,HGD00682,SHRI. KHRIESANGULIE  ,1984-03-03,VIZHALIE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ANGAMI
+217,HGD00684,SHRI. L.LANGI  ,1979-08-03,LIEWANG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+218,HGD00685,SHRI. SAVENYI  ,1988-06-14,SECHUZO,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+219,HGD00686,SHRI. K.PIKETO  ,1980-03-04,KHUNTSO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),SUMI
+220,HGD00691,SHRI. L.MOIWANG  ,1973-08-23,LONGMO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+221,HGD00694,SHRI. PEYONGTOSHI  ,1983-02-01,LIMARAMOK,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),AO
+222,HGD00695,SHRI. CHENGIE  ,1980-04-07,SHAKAI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+223,HGD00696,SHRI. ROKONI  ,1984-07-28,NYEVITO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+224,HGD00698,SHRI. CEKROTA  ,1992-08-15,VESAPRA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+225,HGD00699,SHRI. M.YINGNYEI  ,1983-12-11,METHEIH,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+226,HGD00700,SHRI. P. HANGMEI  KONYAK,1984-04-25,PHONGSHONG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+227,HGD00702,SHRI. ZENCHULO  TEP,1974-05-05,SINGA TEP,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+228,HGD00703,SHRI. A.PANGLAI  ,1988-12-09,APONG,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+229,HGD00705,SHRI. LONGNA  ,1985-06-21,LOUNGTEN,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+230,HGD00707,SHRI. ISSAC  ,1972-07-26,MESHI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KHIAMNIUNGAN
+231,HGD00708,SHRI. LHOUKHROLO  ,1979-10-25,TSHUZULO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+232,HGD00711,SHRI. YAVUO  ,1980-04-20,NEISELHOU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ANGAMI
+233,HGD00713,SHRI. NICOLAS  ,1986-01-08,LEO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ANGAMI
+234,HGD00715,SHRI. A.TINGKAI  ,1980-03-27,ATOA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+235,HGD00716,SHRI. SHYERHUNLO  ,1982-09-18,GWANYELO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+236,HGD00719,SHRI. MAKHU  ,1969-08-07,VEPAHU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+237,HGD00720,SHRI. NYALONG  ,1976-10-17,PHUHTANG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),PHOM
+238,HGD00723,SHRI. KEVIKHE  ,1981-07-30,CHEMMNEY,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+239,HGD00724,SHRI. WANGLOP  ,1983-02-04,WANGLEI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+240,HGD00725,SHRI. CHUYALO  ,1988-03-20,KEHUNGA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+241,HGD00727,SHRI. PHEKNYU  PHOM,1989-07-17,NYAKPA,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),PHOM
+242,HGD00728,SHRI. M.ANGE  ,1983-02-12,METMEI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),PHOM
+243,HGD00729,SHRI. TEPENLO  ,1979-10-22,TESIMO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+244,HGD00730,SHRI. NUTA  ,1980-04-06,MENEHEIY,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+245,HGD00731,SHRI. THONGPENLO  ,1990-02-22,ASHENBU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+246,HGD00732,SHRI. MOTSUTHUNG  ,1984-04-06,EKYIMO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+247,HGD00733,SHRI. ZACHAMO  ,1986-07-15,LOCHAMO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+248,HGD00735,SHRI. AKAVI  ,1987-03-15,KWEGHITHONG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+249,HGD00737,SMTI. MEJASANGLA  ,1989-08-19,RONGSENNUNGSANG,F,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),AO
+250,HGD00739,SHRI. HEPENLO  ,1984-03-16,LT. YATOMO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+251,HGD00743,SMTI. LIPOKZUNGLA  ,1972-03-17,AOMAR,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+252,HGD00744,SHRI. BESUKROYI  ,1973-07-23,LT.DETHUYI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+253,HGD00745,SHRI. C.PANGLOI  ,1978-09-01,CHINGKEM,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+254,HGD00747,SHRI. THONKIYA  ,1989-05-24,ETHAMO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+255,HGD00752,SHRI. H.KHONGMONG  ,1985-04-22,HENPANG,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),PHOM
+256,HGD00759,SHRI. SHANBA  ,1985-01-18,LONGJEI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),PHOM
+257,HGD00760,SHRI. T.THAPA  ,1985-02-24,TONGYEI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+258,HGD00761,SHRI. LONGKHOMO  ,1986-12-23,NYAKWANG,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+259,HGD00762,SHRI. NEIKOTE  ,1979-10-01,KEZUCHULHI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+260,HGD00763,SHRI. MOASUNEP  ,1991-12-01,REBAWANGSHI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),AO
+261,HGD00764,SHRI. M.PHONGNYIE  ,1988-08-20,MANGEL,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),PHOM
+262,HGD00765,SHRI. YHUSENLO  ,1977-03-01,LT.WENNILO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+263,HGD00769,SHRI. TAKUSUNEP  ,1988-04-30,LONGKUMEREN,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+264,HGD00770,SHRI. IMTINUNGSANG  ,1979-10-21,LONGERKABA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),AO
+265,HGD00772,SHRI. T.MYINTHUNGO  ,1975-04-28,TSULUMO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+266,HGD00774,SHRI. Y.MHONBEMO  ,1980-11-22,LT.. YANTSUNIMO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+267,HGD00777,SHRI. THINUOSALIE  ,1977-12-03,LT.VEKEHOLIE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ANGAMI
+268,HGD00780,SHRI. P.LIANG  ,1969-04-06,KAIKO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KHIAMNIUNGAN
+269,HGD00785,SHRI. SHANKU DEP  ,1973-01-13,ANUKULDER,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),OTHERS
+270,HGD00786,SHRI. T.PANNYEI  ,1982-11-29,TOIHPOIH,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+271,HGD00790,SHRI. PICHAMO  ,1990-04-17,YANBEMO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+272,HGD00791,SMTI. NYIMSALI  ,1982-12-15,TSAMOMO,F,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+273,HGD00792,SHRI. KORAWATI  ,1978-07-30,NAPUTOBA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),AO
+274,HGD00794,SMTI. WOCHI MURRY  ,1983-04-20,ZANTSEMO,F,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+275,HGD00804,SHRI. VIZO  ,1983-10-12,SATUOLIE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ANGAMI
+276,HGD00808,SMTI. JEYALI KATH  ,1982-05-25,CHENGA,F,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+277,HGD00813,SHRI. K.MHATHUNG  ,1983-10-10,KHOCHO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+278,HGD00814,SHRI. BELISE  ,1967-10-25,TSASEMONG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),SANGTAM
+279,HGD00816,SHRI. P.MAWANG  ,1979-04-28,PANGWANG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+280,HGD00817,SHRI. MEYIONEN  ,1975-02-18,LIPZUNGTEMJEN,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),AO
+281,HGD00818,SHRI. PELHI TSIDO  ,1990-11-26,ZUUNYI TSIDO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+282,HGD00819,SHRI. T.TEMING  ,1973-03-07,TANGSE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),PHOM
+283,HGD00820,SHRI. MICHAL  ,1981-03-21,SHUPA,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),PHOM
+284,HGD00822,SHRI. CHETAI  ,1982-03-30,PUSHING,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KHIAMNIUNGAN
+285,HGD00824,SHRI. KENEILIETUO  ,1984-06-18,N/A,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ANGAMI
+286,HGD00826,SMTI. SENTITULA  ,1972-10-03,SOTEMKABA,F,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),AO
+287,HGD00827,SHRI. NZHULO  ,1983-03-15,SHANGALO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+288,HGD00829,SHRI. MARTOTEN  ,1979-02-01,TOSHITEMJEN,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),AO
+289,HGD00831,SHRI. ANYI  ,1976-02-01,JWENBU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+290,HGD00832,SHRI. HANJILO  ,1990-02-20,CHENGA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+291,HGD00833,SHRI. P.CHUMCHAMO  ,1974-08-18,PICHAMO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+292,HGD00834,SHRI. C.PETER  ,1982-09-06,CHINGAU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),PHOM
+293,HGD00835,SHRI. N.KOI  ,1983-07-20,N.KHIAM,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KHIAMNIUNGAN
+294,HGD00836,SHRI. TAYONGMAR  ,1982-03-31,REBATEMSU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),AO
+295,HGD00838,SHRI. TOCHU CHANG  ,1978-04-20,TOSHI CHANG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHANG
+296,HGD00841,SHRI. CHUSATO  ,1988-10-27,BASUYI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+297,HGD00842,SHRI. SEKHOTO  ,1972-08-14,MUJOZHU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+298,HGD00845,SHRI. P. YUE KONYAK  ,1987-02-18,PONGNEM,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+299,HGD00846,SHRI. AKETO  ,1987-01-01,HETOKHU,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+300,HGD00848,SHRI. DEMINGTHANG  ,1985-03-01,HAOKHOCHON,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KUKI
+301,HGD00850,SHRI. VIYIKHU  ,1970-07-17,XUTHESHE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+302,HGD00851,SHRI. PHONGTOH KONYAK  ,1991-05-15,NYEME,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+303,HGD00852,SHRI. PANWANG  ,1997-05-01,SONSEI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+304,HGD00855,SHRI. NANGBA  ,1981-05-15,PANGLEM,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+305,HGD00856,SHRI. ABOTO ASSUMI  ,1987-12-27,LUKHATO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+306,HGD00858,SHRI. MHALUMO  ,1972-07-19,NGHEO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+307,HGD00859,SHRI. VIRAVOL  ,1979-07-15,VISETSO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),ANGAMI
+308,HGD00860,SHRI. KAZHETO CHISHI  ,1988-03-03,TOLUVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+309,HGD00865,SHRI. KATIMONGBA  ,1975-08-18,MARMONYAK,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+310,HGD00866,SHRI. HUTOVI   ,1973-10-20,IZHETO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+311,HGD00867,SHRI. KHETOSHE  CHISHI,1977-03-15,GHOSHITO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+312,HGD00868,SHRI. TSUWATEMJEN  ,1976-04-04,NOKENSASHI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+313,HGD00876,SHRI. DAVIS CHOPHY  ,1992-11-25,TOISHE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+314,HGD00877,SHRI. NOKHA  ,1972-06-16,THANGPANG,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+315,HGD00878,SHRI. VIHOI  ,1988-06-10,ZUKHEHE,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+316,HGD00880,SHRI. D.SHAMING  ,1975-10-30,TONGCHING,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+317,HGD00882,SHRI. SUHUTO  ,1994-08-01,LEWOTO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+318,HGD00887,SHRI. LONGNA  ,1974-02-02,HONLAM,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+319,HGD00888,SHRI. VITOKHU  ,1969-05-16,LT. TOKHEHO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+320,HGD00890,SHRI. KENEDY SANGMA  ,1969-12-25,RAMESH  MARAK ,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),OTHERS
+321,HGD00891,SHRI. JONGSHINUKTANG  ,1980-05-03,LT. REPAKUMZUK,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+322,HGD00892,SHRI. PROTUL SANGMA  ,1976-03-16,TIRAN SANGMA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),OTHERS
+323,HGD00894,SHRI. CHITRA BAHADUR  ,1970-07-10,DAMBAR BAHADUR,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),OTHERS
+324,HGD00895,SHRI. VIKATO  ,1978-06-28,GHOKIYI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+325,HGD00897,SHRI. KITOSHE  ,1969-02-25,YESHIYE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+326,HGD00900,SHRI. PULOTO  ,1991-09-14,INAVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+327,HGD00902,SHRI. DANIEL   ,1983-02-01,PHUHETO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+328,HGD00903,SHRI. JEJONG  ,1972-04-20,SHINYU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+329,HGD00905,SHRI. TIAKABA  ,1976-01-20,IMTINUKSANG ,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+330,HGD00906,SHRI. T. HOLUTO  ,1981-09-09,TOLUVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+331,HGD00907,SHRI. ANGUKATO  ,1984-04-15,KAKHETO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+332,HGD00908,SHRI. SHAJAI  ,1976-02-15,METHJIN,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+333,HGD00909,SHRI. SAN-SAO  ,1985-12-15,PYOBEO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+334,HGD00911,SHRI. T. BOMING  ,1976-03-04,TANGSAI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KHIAMNIUNGAN
+335,HGD00913,SHRI. PANGERSOWA  ,1978-03-17,LT. LONGRIMEREN,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+336,HGD00914,SHRI. YANGBA  ,1977-01-07,NEKSU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),CHANG
+337,HGD00916,SHRI. AKINGBA  ,1987-11-15,CHOPEMONG,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SANGTAM
+338,HGD00917,SHRI. WAIMONGBA  ,1969-03-15,IMTITUBA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+339,HGD00918,SHRI. HOKHEVI  ,1972-01-21,PUKHASHE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+340,HGD00919,SHRI. AMRUSH  ,1972-10-01,ULAB SINGH,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),OTHERS
+341,HGD00921,SHRI. KHIJELO  ,1988-08-01,CHUKIYA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+342,HGD00926,SHRI. KIVIKHU  ,1966-10-09,INAXU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+343,HGD00927,SHRI. HONITO  ,1968-10-22,KIKHEI,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+344,HGD00928,SHRI. AMOI  ,1967-01-01,PHONGNYU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+345,HGD00929,SHRI. R. LIBAMO  ,1984-11-29,REMOMO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+346,HGD00934,SHRI. JETEN  ,1977-05-01,J.P. KONYAK,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+347,HGD00935,SHRI. NOKSHING  ,1978-09-17,LONGNYAI,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+348,HGD00937,SHRI. GANESH RAI  ,1966-01-01,KARNA BAHADUR,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),OTHERS
+349,HGD00938,SHRI. RENBEMO   ,1984-01-20,ZONTHUNGO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+350,HGD00939,SHRI. WAILEMBA  ,1971-04-17,LONGTSUNGBA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+351,HGD00941,SHRI. AHOKHE  ,1977-01-20,VIHETO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+352,HGD00942,SHRI. NAMWANG   ,1975-03-13,HONHAM,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),KONYAK
+353,HGD00945,SHRI. TEMJENTUBA  ,1976-03-07,MEYILEMZUNG,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+354,HGD00950,SHRI. BOKALU  ,1983-08-27,H. YEPTHO,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+355,HGD00951,SHRI. RHONTSUTHONG  ,1987-03-18,NYAMONGO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+356,HGD00955,SHRI. KHEHOTO  ,1980-04-03,VINITO,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+357,HGD00956,SHRI. KHIAPONG  ,1992-04-15,KHIUNGA,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),YIMKHIUNG
+358,HGD00957,SHRI. H. TONIHO  ,1978-10-07,LT. HOVISHE ,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+359,HGD00958,SHRI. THANGPONG  ,1987-03-25,MUSHO,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),KONYAK
+360,HGD00959,SHRI. AHWANG  ,1976-03-23,HAMSHING,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+361,HGD00963,SHRI. TOHUKA  ,1979-06-06,NIHOTO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+362,HGD00964,SHRI. T. YANBEMO  ,1983-08-31,E. BENAO ,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+363,HGD00965,SHRI. VIHUTO  ,1973-08-28,SHIKAVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+364,HGD00967,SHRI. BOKATO  ,1991-08-19,LT. NITOVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+365,HGD00968,SHRI. V. ENOVI  ,1992-10-24,VIKHEHO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+366,HGD00969,SHRI. HOKISHE  ,1967-10-22,AHOVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+367,HGD00970,SHRI. JAMES  ,1979-12-23,NIAO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+368,HGD00972,SHRI. RENBEMO  ,1989-12-28,LIMOMO KIKON,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),LOTHA
+369,HGD00973,SHRI. SHIKAVI  ,1985-02-23,HEKHETO,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+370,HGD00975,SHRI. LANUMEREN   ,1983-10-10,RABA,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),AO
+371,HGD00976,SHRI. LICHIO  ,1970-03-15,NGHIO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+372,HGD00977,SHRI. THREKYUSE  ,1977-09-11,TSARISA,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SANGTAM
+373,HGD00978,SHRI. ZANA  ,1987-09-01,NRIO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+374,HGD00980,SHRI. YETOVI SUMI  ,1976-11-15,KHEZHETO  ,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+375,HGD00981,SHRI. PHONGJAI  ,1976-02-08,HOMKAI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+376,HGD00982,SHRI. BENDANGMONGBA  ,1978-09-28,NUKSHIBA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SANGTAM
+377,HGD00983,SHRI. DONGPOK  ,1981-12-08,NOKSANGTOSHI,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+378,HGD00984,SHRI. KUGHATO  ,1988-04-27,KEYEKHU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+379,HGD00987,SHRI. BOL BAHADUR  ,1975-01-01,LAL BAHADUR,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),OTHERS
+380,HGD00990,SHRI. SENTONGKABA  ,1988-12-17,LT. PORTOZUNG,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+381,HGD00993,SHRI. IMNAWATI  ,1979-06-27,TALITSUBA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+382,HGD00995,SHRI. VITOKHU  ,1973-10-10,KUGHATO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+383,HGD00996,SHRI. BHOWANI GAUTAM   ,1974-07-13,JOGANIDHI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),OTHERS
+384,HGD00997,SHRI. RAM BAHADUR  ,1973-11-12,DIL BAHADUR,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),OTHERS
+385,HGD00998,SHRI. LONGTSU-O  ,1978-04-03,SEMOTHUNG,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+386,HGD01000,SHRI. ARJUN RAI  ,1970-01-03,K. M. RAI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),OTHERS
+387,HGD01004,SHRI. HOLUVI  ,1985-09-30,GHOVISHE,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+388,HGD01005,SHRI. K. NGON  ,1984-02-14,KAIKO,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),KHIAMNIUNGAN
+389,HGD01007,SHRI. ZUBEMO  ,1974-10-14,T. YANPO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+390,HGD01008,SHRI. HETIMO    ,1982-06-23,CHUKIA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+391,HGD01010,SHRI. SHITOVI CHISHI  ,1986-08-13,HESHETO ,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+392,HGD01011,SHRI. V. NIHOTO  ,1971-03-15,VIHOSHE ,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+393,HGD01012,SHRI. ZACUZO  ,1982-11-01,HUNGOTSO,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+394,HGD01013,SHRI. AGHATO ZHIMO  ,1984-09-17,ZUNIHO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+395,HGD01014,SHRI. HEKUTO   ,1968-10-03,KUKEKHE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+396,HGD01015,SHRI. PHUTOVI   ,1990-12-04,SATOVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+397,HGD01016,SHRI. AKETO SUMI  ,1982-04-25,KIKHEVI  ,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+398,HGD01018,SHRI. ZHEVUKHU  ,1974-01-24,AHOKHU,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+399,HGD01019,SHRI. HOVITO  ,1988-05-14,KHAKHU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+400,HGD01020,SHRI. MHAO LOTHA  ,1976-02-17,ZACHIO LOTHA,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),LOTHA
+401,HGD01026,SHRI. KITO K. ACHUMI  ,1989-02-06,LT. KUGHATO ACHUMI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+402,HGD01029,SHRI. VITO  ,1987-11-21,HEKUTO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+403,HGD01030,SHRI. IMTIWAPANG  ,1978-11-11,TSUKTINUNGSANG,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+404,HGD01032,SHRI. YIMNEI  ,1970-06-13,NOKHON,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+405,HGD01033,SHRI. NRIBEMO  ,1977-05-10,NMAMO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+406,HGD01037,SHRI. KHUVUNGBO  ,1988-01-06,NERANGTHUNG,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+407,HGD01039,SHRI. HAMNYIE  ,1976-04-18,LONGNYIM,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+408,HGD01040,SHRI. WONYEI  ,1972-11-08,NOKTEN,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+409,HGD01041,SHRI. PHONGONG  ,1992-02-01,MANTEN,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+410,HGD01042,SHRI. NUNGSHIYANGER  ,1974-03-17,NOKLENNOKSANG,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+411,HGD01044,SHRI. GHOSHITO  ,1969-03-03,VIKIYE,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+412,HGD01050,SHRI. ANGLA  ,1992-06-15,PHUHNGA,F,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),PHOM
+413,HGD01051,SHRI. HEKIKHE   ,1980-05-01,ZHENIHO,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+414,HGD01056,SMTI. LIKYBENI  ,1975-11-01,JOHN,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+415,HGD01057,SMTI. YAMBENI  EZUNG  ,1973-05-03,NRUCHIN,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+416,HGD01058,SHRI. KIKHEHO  ,1984-12-06,NIHOTO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+417,HGD01059,SHRI. PURANA BAHADUR  ,1970-02-20,NOR BAHADUR THAPA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),OTHERS
+418,HGD01060,SHRI. ARJUN THAKUR  ,1972-02-15,SURESH  THAKUR,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),OTHERS
+419,HGD01063,SHRI. HAMNEI KHIAM  ,1980-05-04,PELAMA,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),KHIAMNIUNGAN
+420,HGD01064,SHRI. I.IKHETO AWOMI  ,1987-06-01,IHOTO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+421,HGD01067,SHRI. HOKHUPU  ,1985-02-09,VITOYI,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+422,HGD01068,SHRI. TINUNUKSANG  ,1993-09-17,IMNANOKTANG,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+423,HGD01069,SHRI. ZUCHAMO MOZHUI  ,1984-04-30,YEBEMO ,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+424,HGD01073,SHRI. KUMSUTO  ,1989-10-29,KHAZHEHE IKHESHE,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+425,HGD01074,SMTI. ACHI KATH  ,1988-02-04,LAMATHANG ,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+426,HGD01075,SMTI. SUNGJEMMONGLA  ,1977-12-07,JONGPONG,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+427,HGD01076,SMTI. TOYILI  ,1979-12-01,KHUVISHE,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+428,HGD01077,SMTI. TESENLE   ,1978-08-13,LT. ASUTHANG ,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+429,HGD01078,SMTI. NIPUSINO  ,1983-09-23,LT. KRULHULIE,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),ANGAMI
+430,HGD01079,SMTI. BENDANGMENLA  ,1982-08-28,LT. TEKABA,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+431,HGD01080,SMTI. SUSANGLEMLA  ,1973-11-22,DUTEN,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+432,HGD01083,SMTI. IMSUSANGLA  ,1973-05-16,SAMABA,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+433,HGD01084,SMTI. T. WATISENLA  ,1975-06-22,LT. TEMJIN,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+434,HGD01085,SMTI. KHEZHELE  ,1972-02-01,HOZUKHE,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+435,HGD01086,SMTI. PHYOBENI  ,1972-12-12,YIKHO,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+436,HGD01087,SMTI. TANGETLEMLA  ,1983-08-23,IMINUKSHI,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+437,HGD01090,SMTI. TAKUMONGLA  ,1969-04-20,YAMONG,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+438,HGD01093,SMTI. YHUNILE  ,1973-10-13,PORUSHE,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+439,HGD01094,SMTI. ANGAMKALA  ,1970-07-12,LIMASOWA,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+440,HGD01095,SMTI. KAZHELI  ,1974-05-16,NITOVI,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+441,HGD01096,SMTI. L. WATISENLA  ,1975-09-27,LONGKOKNUNGSANG,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+442,HGD01097,SMTI. PUKHALI  ,1973-04-09,KHUMUTSA,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+443,HGD01098,SMTI. IMLIRENLA  ,1972-12-25,LOLENTSUBA,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+444,HGD01100,SMTI. IMSUJUNGLA  ,1968-12-15,IMKONGYANGER,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+445,HGD01101,SMTI. TEMJENKALA  ,1976-04-17,SANLIKABA,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+446,HGD01102,SMTI. ASUNGLA  ,1975-11-13,YAPANG,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+447,HGD01103,SMTI. IMTISOLA  ,1970-03-19,IMKONGNUNGSANG,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+448,HGD01104,SMTI. SANATULA  ,1974-05-14,LIMABA,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+449,HGD01105,SMTI. WATIMONGLA  ,1975-03-13,IMTINGANAN,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+450,HGD01106,SMTI. WAPANGLA  ,1975-11-21,TEKABA,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+451,HGD01111,SMTI. YANBENI  PATTON  ,1974-11-14,TANBEMO,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+452,HGD01112,SMTI. N. ALEMLA  ,1970-02-13,CHUBA,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+453,HGD01113,SMTI. RONSENJUNGLA  ,1976-02-26,MARINBA,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+454,HGD01116,SHRI. K. PUSHE  ,1977-05-10,KHOMO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KHIAMNIUNGAN
+455,HGD01119,SHRI. IMTIKUMZUK  ,1968-10-20,NUNGSANGMEREN,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+456,HGD01120,SHRI. KUGHALU  CHOPHY  ,1987-03-15,NIHEVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+457,HGD01125,SHRI. WANGBA  ,1980-04-01,NYEABA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+458,HGD01126,SMTI. HOLIVI  ,1986-12-25,TOZUHE,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+459,HGD01127,SHRI. KOMA    ,1980-10-17,AMONG,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),CHANG
+460,HGD01128,SHRI. CHAMBA  ,1983-07-16,THONGYENG,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+461,HGD01129,SHRI. PUNAM  ,1982-05-03,PENLANG,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KHIAMNIUNGAN
+462,HGD01135,SHRI. CHENCHULO  ,1986-05-16,MUYISHOE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+463,HGD01138,SHRI. ABOTO  ,1980-12-28,KHEHOVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+464,HGD01139,SMTI. MOAMONGLA  ,1971-05-17,ANOKMEDEM,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+465,HGD01142,SHRI. ALOK  ,1972-01-15,AMOI,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),KONYAK
+466,HGD01146,SHRI. GOPANG  ,1979-04-18,LEIPHO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+467,HGD01148,SHRI. TOKISHE  ,1985-03-15,ATOSHE,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+468,HGD01149,SHRI. ATOHO  ,1977-08-18,ZUKUTO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+469,HGD01150,SHRI. KHEHOTO  ,1980-01-21,HOTOSHE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+470,HGD01151,SHRI. WOTHUNGO  ,1987-06-12,NRISAO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+471,HGD01152,SMTI. BENDANGLILA  ,1987-01-08,KUMSANGCHIBA,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+472,HGD01153,SMTI. CHUBANARO  ,1986-07-20,I.TANGIT,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+473,HGD01156,SHRI. ANAND MECH  ,1973-05-06,BEPHOTE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KACHARI
+474,HGD01157,SHRI. BOTOVI  ,1969-03-15,ZAKHUVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+475,HGD01158,SHRI. P. WANGLE  ,1990-10-20,PANKHE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+476,HGD01160,SHRI. KAKIHO  SUMI  ,1986-08-18,HOZHETO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+477,HGD01167,SHRI. MUGHAHO  ,1985-12-11,YEHAVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+478,HGD01168,SHRI. KIYESHE  CHOPHI  ,1987-10-29,HEKISHE,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+479,HGD01170,SHRI. IKATO KIBA  ,1982-10-28,YEHOVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+480,HGD01177,SHRI. HECHULO  ,1988-11-25,NKHUMTSI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+481,HGD01178,SHRI. S. KIHOYE  ,1987-12-11,SHIKIKHE,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+482,HGD01180,SHRI. VINOTO  ,1993-11-03,HESHETO,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+483,HGD01182,SHRI. HOTOLU  ,1985-03-06,PUHOI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+484,HGD01183,SHRI. JONATHAN  ,1989-06-26,MARABA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+485,HGD01184,SHRI. JEPTHA  ,1982-04-04,KHISHA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+486,HGD01185,SMTI. JELIYA KENT  ,1982-11-13,SEGHO KENT,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+487,HGD01188,SHRI. KHEZHETO  ,1972-08-11,TOKHETO,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+488,HGD01189,SHRI. L. AOTO  ,1970-10-08,LT. LUZHEKHU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+489,HGD01190,SHRI. IMNA  ,1974-08-19,LT. IMO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+490,HGD01191,SHRI. HEKHUVI  ,1976-06-06,ZHENIGHI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+491,HGD01195,SHRI. MUGHABETO   ,1986-08-30,KHUTOVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+492,HGD01197,SHRI. CHINGPONG   ,1967-04-08,PONGWAN,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+493,HGD01198,SHRI. ENOK  ,1988-02-06,HENITO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+494,HGD01199,SHRI. SALMAN  ,1971-12-11,DAL BAHADUR,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),OTHERS
+495,HGD01201,SHRI. KUGHALU  ,1978-10-03,SHIWATO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+496,HGD01202,SMTI. SENDONGMONGLA  ,1981-01-28,BENDANGPOKYIM,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+497,HGD01206,SHRI. TINGMAI  ,1982-10-23,TINGKEI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+498,HGD01208,SHRI. THUNGBEN  ,1986-12-19,CHUBASO KIKON,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+499,HGD01234,SHRI. CIPO  SHIJOH,1993-08-08,SHOZUVOYI,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+500,HGD01237,SHRI. IMLIKABA  PONGENER,1979-05-03,IMKONGSASHI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+501,HGD01240,SHRI. SONDRAJIT  BASUMAMATARY,1987-03-05,LT. RUPEN,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),
+502,HGD01241,SHRI. KUDEPHUYI  SWURO,1989-08-15,ZAPHANYI,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+503,HGD01273,SMTI. GUNMAYA  GURUNG,1996-04-10,KASH BAHADUR GURUNG,F,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),
+504,HGD01279,SHRI. A. EPHA  ,1988-12-20,ASHEH,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+505,HGD01280,SHRI. A. KHAPE  ,1983-02-14,MUKHU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+506,HGD01281,SHRI. A. LEITANG  PHOM,1982-03-05,AMPEN PHOM,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),PHOM
+507,HGD01282,SHRI. A.MANCHING  KONYAK,1991-02-05,ASHOH,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+508,HGD01283,SHRI. ABEL  NGULLIE,1989-11-11,NNTSENO NGULLIE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+509,HGD01285,SHRI. AHOI  ,1978-12-11,IHOSHE,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+510,HGD01286,SHRI. AKAHO  SUMI,1976-03-03,ZHUKIYE,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+511,HGD01287,SHRI. AKAVI  ROCHIL,1988-04-09,TOHOKHU ROCHIL,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),SUMI
+512,HGD01288,SHRI. AKUTO  ZHIMO,1982-11-27,HOTOI,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+513,HGD01290,SHRI. ALHOKA  ,1986-06-03,SHITOVI,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+514,HGD01291,SHRI. AQHETO  ,1988-01-18,KHUWOTO,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+515,HGD01292,SHRI. ASHOKA  ,1991-11-12,KHAVISHE,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+516,HGD01293,SHRI. ASINLO   THYUG,1985-06-20,PORUSHEN,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+517,HGD01294,SHRI. ATOHO  SEMA,1991-10-03,VIKHETO SEMA,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+518,HGD01296,SHRI. ATOVI  AYE,1988-10-07,HEKHUVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+519,HGD01297,SHRI. AVITO  AWOMI,1988-10-13,HOTOVI AWOMI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+520,HGD01298,SHRI. B. SUNGJEMMENBA  ,1993-06-12,LT.TENUTEMSU,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+521,HGD01300,SHRI. BENYEMJONG  ,1973-03-15,LT. IMLONG,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),CHANG
+522,HGD01301,SHRI. BHAGAWAN   GUPTA,1970-07-05,LT. BALIRAM,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),
+523,HGD01302,SHRI. BOHOVI  ,1978-10-08,KHEVITO,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+524,HGD01303,SHRI. C. BONEIYENPEI  ,1987-04-25,CHIAGUM,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+525,HGD01305,SHRI. C. YIBOMO  LOTHA,1975-05-07,HON SHING,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+526,HGD01306,SHRI. CHEKUTO  ,1987-07-17,VIKAHO,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+527,HGD01307,SHRI. CHEMNGENG  ,1985-01-10,ANGTONG,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+528,HGD01308,SHRI. CHENTILO  MAGH,1994-11-07,KHANKHU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+529,HGD01310,SHRI. CHUBARENLA  JAMIR,1994-07-13,REPAKUMZUK,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),AO
+530,HGD01311,SHRI. CHUWACHU  WANTH,1993-10-07,SHITO WANTH,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+531,HGD01312,SHRI. DASUH  RHAKHO,1982-08-20,VERHAYI,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),CHAKHESANG
+532,HGD01313,SHRI. DAVID  SUMI,1992-12-18,KHUKIYE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+533,HGD01314,SHRI. DEEP  GURUNG,1990-01-20,LT. LAMPHO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),
+534,HGD01315,SHRI. DIELO  KOZA,1988-03-01,LACHU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+535,HGD01316,SHRI. E. KAMPA  KONYAK,1994-03-05,EYONG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+536,HGD01317,SHRI. E. LONGSHITHUNG  ,1980-12-17,AKYIMO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+537,HGD01318,SHRI. E. SHAHPHONG  KONYAK,1995-04-10,EKAI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+538,HGD01319,SHRI. G.VIYITO   CHISHI,1989-02-03,LT.GHOVITO CHISHI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+539,HGD01321,SHRI. GHUNAKHA  ,1988-09-21,KESHETO,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+540,HGD01322,SHRI. H. CHANGKI  KONYAK,1984-03-05,HANGHU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+541,HGD01323,SHRI. H. PHUMPONG  ,1994-07-03,HONGLEM PHOM,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),PHOM
+542,HGD01324,SHRI. H.KINITO  SUMI,1994-11-23,HOWOTO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+543,HGD01325,SHRI. HAMPOM  OHOM,1984-04-16,VUNGE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),PHOM
+544,HGD01326,SHRI. HANJI  ,1994-08-08,RETSU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+545,HGD01327,SHRI. HEKATO G JIMO,1995-08-29,GHOKEHO,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+546,HGD01328,SHRI. HIMATO  AWOMI,1992-11-18,KHUTOI AWOMI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+547,HGD01330,SHRI. HOMIE  ,1994-03-03,INYEI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+548,HGD01331,SHRI. HONITO  ,1978-06-10,LT. XUTOI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+549,HGD01332,SHRI. HONITO  ZHIMO,1978-12-16,HETOKHU ZHIMO,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+550,HGD01333,SHRI. HOSHIKA  ,1987-07-15,KEHELI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+551,HGD01334,SHRI. HOTOI  AYEMI,1988-04-05,VIKHEYI AYEMI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+552,HGD01336,SHRI. HOVIQHE G LOHE,1992-10-25,GHUZUHE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+553,HGD01337,SHRI. HUKHEYI  ,1983-02-27,PHUHOYI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),CHAKHESANG
+554,HGD01338,SHRI. HUTOI  ,1994-03-08,ZUHAI,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+555,HGD01339,SMTI. I. MOARENLA  ,1975-11-14,IMNATOSHI,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+556,HGD01340,SHRI. I. NOKIEN  PHOM,1978-05-18,IMKONGLOVA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),PHOM
+557,HGD01341,SHRI. IHOSHE  ,1973-01-15,ZHEHOTO,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+558,HGD01342,SHRI. IMLIWATI  ,1970-01-12,WAIKABA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+559,HGD01343,SHRI. IMNATOSHI  AO,1979-11-23,SUNJEMKABA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+560,HGD01344,SHRI. IMSUNGTIBA  ,1976-11-12,TOSHI AO,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+561,HGD01346,SHRI. IMTIMAYANG  OZUKUM,1971-09-15,LEPZUNGTEMJEN,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),AO
+562,HGD01347,SHRI. IMTSATSUNG  ,1988-04-25,SUPONGMEREN,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+563,HGD01348,SHRI. INATO  WOTSA,1992-12-19,HEZHETO WOTSA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+564,HGD01349,SHRI. ISAK  ,1983-01-06,TOSHIHU,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+565,HGD01350,SHRI. ISAKA  ,1990-07-04,ZHENITO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+566,HGD01351,SHRI. ITOVI  AWOMI,1988-12-07,SAHOSHE AWOMI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+567,HGD01352,SHRI. J.S. MOLU  ,1977-04-09,M. JONGBA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+568,HGD01353,SHRI. JASON K. CHISHI,1994-06-05,KALIP CHISHI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),SUMI
+569,HGD01354,SHRI. JOEL  MESEN,1988-07-17,SHESHATU,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),RENGMA
+570,HGD01355,SMTI. JUNGPONGCHILA  ,1988-05-29,TAKASANGBA,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+571,HGD01356,SHRI. K. KHESHITO  SUMI,1980-09-25,KHUTOVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+572,HGD01358,SHRI. KAMUGHA  AYE,1990-05-05,KAKHETO AYE,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+573,HGD01359,SHRI. KAPUTO  YEPTHO,1995-02-25,ATOVI YEPTHO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+574,HGD01360,SHRI. KASHETO  CHOPHY,1986-12-08,KHAVISE CHOPHY,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+575,HGD01362,SMTI. KEKHRIENEINUO  ,1985-01-09,MACHUNIVU,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),ANGAMI
+576,HGD01363,SHRI. KEPENSIN  KEPPEN,1991-06-17,KHASU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+577,HGD01364,SHRI. KHAOSHAI  ,1981-07-17,HATHO,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),CHANG
+578,HGD01365,SHRI. KHEKUGHA  CHISHI,1988-03-15,VIKISHE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+579,HGD01366,SHRI. KHENIVI  ,1972-01-29,YEHAXU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+580,HGD01367,SHRI. KHETOSHE  ,1987-06-24,PUKHAYI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+581,HGD01368,SHRI. KHEVINI  ,1986-10-15,LT.LUKHAZU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+582,HGD01369,SHRI. KHEZHETO  ,1992-02-08,TOKUGHA,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+583,HGD01370,SHRI. KHORANG  SANGMA,1970-05-12,VITRO MARK,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),GARO
+584,HGD01371,SHRI. KHOTO  RHAKHAO,1994-02-20,KHUNEYI,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+585,HGD01372,SHRI. KHUITO  ,1990-07-03,KHUHEZU,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+586,HGD01373,SHRI. KHUMONG  ,1991-07-15,PESING,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KHIAMNIUNGAN
+587,HGD01374,SHRI. KHUTOI  SUMI,1991-12-02,VIHUTO SUMI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+588,HGD01375,SHRI. KIHOVI  SUMI,1975-10-10,SHOGHIPU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+589,HGD01376,SHRI. KIYEKHA  ,1986-06-30,NITOHO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+590,HGD01377,SHRI. KIYELU  ,1993-07-22,KIYETO,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+591,HGD01379,SHRI. KIYELU  ACHUMI,1983-12-12,KIYEZHU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+592,HGD01380,SHRI. KUGHAVI  ,1981-02-15,LT. AGHOVI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),SUMI
+593,HGD01381,SHRI. KUSHMA  THAPA,1981-08-21,MON BAHADUR,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),
+594,HGD01382,SHRI. KUZUVETO  ,1990-05-02,ZANI,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+595,HGD01383,SHRI. L. KAIYE  KONYAK,1990-02-06,LONGYENG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+596,HGD01384,SHRI. L. LONGLEM   PHOM,1992-02-15,LENMYEI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),PHOM
+597,HGD01386,SHRI. L.SAKHUMBA  SANGTAM,1985-05-15,LISHOSE,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SANGTAM
+598,HGD01387,SHRI. LANUTEMSU  ,1993-06-01,MERENTOSHI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+599,HGD01388,SHRI. LEPITHING  ,1994-02-27,YONGCHOMONG SANGTAM,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),SANGTAM
+600,HGD01389,SHRI. LIMASUNGBA  ,1996-05-30,MARCHUBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+601,HGD01390,SHRI. LUNGHAM  LUKLIM,1978-05-16,PHUHTEI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+602,HGD01391,SHRI. M. CHINGJIE  ,1989-03-10,MANNYIE,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+603,HGD01392,SHRI. M. ISSAK  ,1979-07-26,MUSHU,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),KONYAK
+604,HGD01393,SHRI. M. JAMES  NGULLIE,1987-04-27,MYANLUMO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+605,HGD01394,SHRI. M. MANNYAI  ,1989-02-22,MAIPAI,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),PHOM
+606,HGD01395,SHRI. M. TONGKHAM  ,1990-04-02,MANLIEH,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+607,HGD01396,SHRI. M. YANGOM  ,1992-02-10,MATHNA KONYAK,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+608,HGD01397,SHRI. M. YIMLONGTOI  ,1980-02-12,MUPUSINGBA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KHIAMNIUNGAN
+609,HGD01398,SHRI. M.YEANGKUO  ,1979-02-24,METHLONG,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),YIMKHIUNG
+610,HGD01399,SHRI. MAITON  ZHIMO,1991-10-05,KHEKIHO,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+611,HGD01400,SHRI. MANLEI  KONYAK,1991-02-19,CHAHSA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+612,HGD01401,SHRI. MANOJ KUMAR GUAR,1973-10-11,RAM KARWAL,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),
+613,HGD01402,SHRI. MARMONGBA  ,1987-11-21,LONGSA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+614,HGD01403,SMTI. MARY  TEP,1976-02-14,RUSHULO,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+615,HGD01404,SHRI. MELEZO  TETSEO,1994-01-07,ZAPOVE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+616,HGD01405,SHRI. MERIBEMO  TUNGOE,1987-02-05,LT.ZAMBOMO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+617,HGD01407,SHRI. MHABEMO  MERRY,1987-11-18,RIKYOMO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+618,HGD01408,SHRI. MHONYAMO  KIKON,1986-06-08,TSEMOMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+619,HGD01410,SHRI. MOSHAMONGBA  ,1979-02-25,YONGKONGSOMBA,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),YIMKHIUNG
+620,HGD01412,SHRI. MUGHAVI  AYEMI,1983-06-16,KHEKHOVI AYEMI,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+621,HGD01413,SHRI. MUZITO  KHUSOH,1994-02-02,KUTHOSEYI,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+622,HGD01414,SHRI. MYINTHUNGO  LOTHA,1980-12-29,LT.YISAO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+623,HGD01415,SHRI. N  JUNNGPENG,1993-05-22,NIENKHIA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KHIAMNIUNGAN
+624,HGD01416,SHRI. N. ECHUNGO  NGULLIE,1986-01-08,NZIKAO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+625,HGD01417,SHRI. N. TOKUTO  ,1987-08-14,NIKHESHE,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+626,HGD01418,SHRI. N.NOKHAN  ,1994-10-18,KHI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KHIAMNIUNGAN
+627,HGD01420,SHRI. N.VIKUTO  SEMA,1974-01-01,LT.NAKHEZU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+628,HGD01421,SHRI. NEIKODO  ,1988-08-25,KODONYI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+629,HGD01422,SHRI. NENTILO  APON,1988-03-02,KENILO APON,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+630,HGD01423,SHRI. NUNGSHIMONGBA  ,1985-06-25,TALICHUBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+631,HGD01424,SMTI. NYIMCHANO  ,1986-12-25,TSABEMO,F,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+632,HGD01425,SHRI. NZANBEMO  NGULLIE,1981-12-30,NRITSEMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+633,HGD01426,SHRI. OBED  ,1994-05-12,VITOKHU,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),SUMI
+634,HGD01427,SHRI. P. BESHING  KHIAM,1994-03-28,BENGLANG,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),KHIAMNIUNGAN
+635,HGD01428,SHRI. P. CHEAP  ,1989-05-15,LT. PUNGOM,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+636,HGD01429,SHRI. P. HUKHETO  ,1976-11-15,PUHOYI AYEMI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),SUMI
+637,HGD01430,SHRI. P. KHATWANG  ,1978-10-15,PANWANG,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+638,HGD01431,SHRI. P. LONGNYEM  KONYAK,1990-05-17,PHUHNYEI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+639,HGD01432,SHRI. P. YAKUP  ,1985-10-01,PONYONG,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+640,HGD01433,SHRI. PENILO KEZ ,1993-10-17,NESILO KEZ,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+641,HGD01435,SHRI. PHONGMEI KONYAK ,1971-03-20,KHONGEM,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),KONYAK
+642,HGD01436,SHRI. PANGNYEI  ,1973-11-29,LONGJAI,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+643,HGD01437,SHRI. POLAMU  ,1979-06-15,VERUDA,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+644,HGD01438,SHRI. PONGBO  KONYAK,1994-01-01,RHOKTONG,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+645,HGD01439,SHRI. PONGPAI  ,1972-08-10,NOKPANG,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),KONYAK
+646,HGD01440,SHRI. PRAMOD  KUMAR,1995-01-01,BINOD KUMAR,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),
+647,HGD01441,SHRI. PURLEMBA  ,1978-12-24,MOLUNGKUMZUK,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+648,HGD01442,SHRI. PUTUSANEN  ,1980-10-12,TARENNUNGSANG,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+649,HGD01443,SHRI. R. WOBEMO  ,1978-08-14,REMOMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+650,HGD01444,SHRI. RAZUVEYI  NYEKHA,1980-11-02,LOHE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),CHAKHESANG
+651,HGD01445,SHRI. RENDEMO  ,1993-09-17,LONGIDANG,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+652,HGD01446,SHRI. RONGSENKABA  ,1989-01-15,SAKUREPBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+653,HGD01447,SHRI. S KAHUTO ,1977-12-01,SHIKHU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+654,HGD01448,SHRI. S. HONKA  ,1980-04-02,SHEANGMEI,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+655,HGD01449,SHRI. S. TINGJEI  ,1989-10-03,SHAKNYEI KONYAK,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+656,HGD01450,SHRI. S.ANYAM  PHOM,1982-12-15,SHANGYANG PHOM,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),PHOM
+657,HGD01451,SHRI. SACHUTHONG KATH ,1982-10-04,:LT. SINGHO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+658,HGD01452,SHRI. SATONGLIMBA  ,1992-10-24,MONGKCHOLLEM,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),AO
+659,HGD01453,SHRI. SAVEYI DOZO ,1988-06-14,SETSUZO DOZO,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+660,HGD01454,SHRI. SEMER POKYIM ,1981-10-20,LT. TAKURA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+661,HGD01455,SHRI. SENMULE KEZ ,1982-07-06,ASHENPI KEZ,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+662,HGD01456,SHRI. SENTENMEREN  ,1988-06-14,LONGCHATONGBA,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),AO
+663,HGD01457,SMTI. SENTIYANGLA  ,1992-03-29,LT. LIMATOSHI,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),AO
+664,HGD01459,SMTI. SHERHUNLE  THYUG,1983-05-01,KEGWACHU,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),RENGMA
+665,HGD01460,SHRI. SHINGNYA KHIAM  ,1988-02-18,LT. BUTANG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KHIAMNIUNGAN
+666,HGD01462,SHRI. SUBENTHUNG  ,1987-11-04,NZINIMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+667,HGD01465,SHRI. T HEMSHO ,1989-11-18,TAPLEI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+668,HGD01467,SHRI. T.MOARENBA  AO,1987-11-11,TEMJENLIBA,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),AO
+669,HGD01468,SHRI. T.ZATOVI  AYEMI,1985-09-14,LT.THILIXU AYE,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+670,HGD01469,SHRI. TEMJENWAPANG  ,1987-09-06,IMTIKUMZUK,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+671,HGD01470,SHRI. TENSANG  PHOM,1989-12-10,ANGRET PHOM,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),PHOM
+672,HGD01472,SHRI. THONGKHAM KONYAK ,1973-07-05,NOKYEI KONYAK,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+673,HGD01473,SHRI. THONGO  ,1975-08-30,LANGKONG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+674,HGD01474,SHRI. THSANSO  YIM,1993-07-20,MUTHRONG,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),YIMKHIUNG
+675,HGD01475,SHRI. THUNGBEMO  ,1975-04-07,KILOSAO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+676,HGD01476,SHRI. THUNGCHIBEMO  ,1982-03-23,NYIMTHUNGO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+677,HGD01477,SMTI. TIANARO  ,1980-01-18,CHUBANONGSHI,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+678,HGD01478,SHRI. TOHOI  AWOMI,1975-10-05,ISHIVI AWOMI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+679,HGD01479,SHRI. THUNGBEMO N LOTHA,1980-06-30,NLIMSAO LOTHA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+680,HGD01480,SHRI. TONGHE  KONYAK,1995-05-15,MANMA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+681,HGD01481,SHRI. TOVITO  ,1987-09-15,ZUHETO,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+682,HGD01482,SHRI. TSABEMO  ,1995-11-11,PICHUNGO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+683,HGD01483,SHRI. TSENKHOMO  ,1986-02-02,CHILO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+684,HGD01486,SHRI. VEKHRUVO  ,1993-06-26,SHENEYI,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+685,HGD01487,SHRI. VELODI  ANGAMI,1981-01-15,HOLTO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),ANGAMI
+686,HGD01488,SHRI. VESHITO  RENGMA,1972-12-03,MERHUPFU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+687,HGD01489,SHRI. VIKISHE  ZHIMO ,1982-08-06,LT.QHEHOVI ZHIMO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+688,HGD01490,SHRI. VIKUTO K CHISHI,1974-01-01,NAKHEZU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+689,HGD01493,SMTI. VIZOSANUO  ,1979-09-19,POVEYI,F,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ANGAMI
+690,HGD01494,SHRI. VOTEPHO  KONYAK,1990-09-03,WANGPHEI KONYAK,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+691,HGD01495,SHRI. WASENLO KATH ,1988-02-02,LT. KIVITHA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+692,HGD01496,SHRI. WOBEN E. KIKON,1991-03-15,ETSAMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+693,HGD01497,SHRI. X. HOBITO  SHOHE,1980-09-04,XHUKIYE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),SUMI
+694,HGD01500,SHRI. Y. HUTOSHE  YEPTHOMI,1992-10-10,YETHOKHU,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+695,HGD01502,SHRI. Y. LONGSHITHUNG  LOTHA,1986-12-03,LT. YAMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+696,HGD01503,SHRI. Y. LUNGNYEI  ,1990-03-16,YONGMAI,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+697,HGD01504,SHRI. Y. MHONBEMO  NGULLIE,1987-03-27,NONGTSU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+698,HGD01505,SHRI. Y. NAHYANG  ,1990-08-16,YEANGANG,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+699,HGD01506,SHRI. YANBEMO  ,1989-10-01,KHANDAO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+700,HGD01507,SHRI. YANGMEI  ,1992-07-25,LT. MAYIM,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+701,HGD01508,SHRI. YANPOTHUNG  ,1985-07-05,NYIMSAO NGULLIE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+702,HGD01510,SHRI. YARENTHUNG  ,1979-11-03,NCHIO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+703,HGD01512,SHRI. YEVIXU  SWU,1986-12-23,PUKHALU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+704,HGD01513,SHRI. YHUNSULO  SEB,1995-01-01,LONGUBU,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+705,HGD01514,SHRI. YIBEMO  ,1975-02-15,NYIMSAO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+706,HGD01515,SHRI. YOKNYEI  ,1981-11-06,THENMING,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+707,HGD01517,SHRI. Z IHOSHE ,1970-09-08,GHOLHOLI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+708,HGD01518,SHRI. Z. KHUTOYI  SUMI,1972-05-03,ZHEHEVI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+709,HGD01520,SHRI. ZAREMO  ,1973-01-04,MHONTHUNG,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+710,HGD01521,SHRI. ZUCHEMBEMO  ,1984-12-18,KHONBEMO KIKON,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+711,HGD01522,SHRI. A.EPE  KONYAK,1994-02-20,M. AKHAO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+712,HGD01525,SHRI. ALOTO Z YEPTHO,1998-07-20,ZHUTOVI,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+713,HGD01529,SHRI. ATOHO  ,1987-09-17,XUNITO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+714,HGD01530,SHRI. ATSHE  LOHE,1992-08-26,SOLHENYI LOHE,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+715,HGD01531,SHRI. AZOTO  VERO,1993-03-21,ASHITO VERO,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+716,HGD01532,SHRI. C. EZANBEMO  ,1973-01-01,CHUMREMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+717,HGD01534,SMTI. CHALIENUO  ANGAMI,1996-12-16,KIPFELHOU,F,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ANGAMI
+718,HGD01536,SHRI. CHUWACHU  ,1994-01-06,TOVISHE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KHIAMNIUNGAN
+719,HGD01537,SHRI. ELIAS  RENGMA,1994-10-09,LT. INAKHA RENGMA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+720,HGD01538,SHRI. EYIENGUPE  TSIDO,1995-04-09,METSITSHU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ZELIANG
+721,HGD01539,SHRI. EYINGBEMO  PATTON,1986-02-14,MENTSIO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+722,HGD01540,SHRI. GUN  BAHADUR,1977-05-04,MON BAHADUR,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),
+723,HGD01542,SHRI. H.NOKHO  ,1989-12-02,Y.HONHAM,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+724,HGD01544,SHRI. HAITWABE  NAMGI,1991-12-01,PAURANGBE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ZELIANG
+725,HGD01545,SHRI. HAIWACHU  KATH,1990-04-14,SHUKHU KATH,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+726,HGD01546,SHRI. HEKATO V ,1996-01-19,VIKHETO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),SUMI
+727,HGD01548,SMTI. HIJILE  SEMY,1995-11-21,LT.THONGLO SEMY,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+728,HGD01549,SHRI. HUKHETO  ,1996-10-02,LUZHEKHU,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),CHAKHESANG
+729,HGD01550,SMTI. LIMASENLA  LONGCHAR,1988-09-09,BENDANG LONGCHAR,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),AO
+730,HGD01554,SHRI. IMOYANGER  YADEN,1986-08-23,TONGPANGWATI,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+731,HGD01555,SMTI. IMRONG NARO LONGKUMER,1983-02-10,TEMJENSANGBA,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),AO
+732,HGD01556,SHRI. E. MANCHEN  KONYAK,1996-07-05,ENGMONG,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+733,HGD01557,SHRI. CHONBEN  SHITIO,1991-03-27,KHYOBENTHUNG SHITIO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),RENGMA
+734,HGD01558,SHRI. IMTIPOKYIM  ,1999-03-29,LANUWATI,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+735,HGD01559,SHRI. IMTITOSHI  LONGKUMER,1989-01-05,TIAMEREN,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+736,HGD01560,SHRI. IMTIWANGSHI  ,1995-09-22,IMNANUNGBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+737,HGD01562,SMTI. JULIKA V CHOPHY,1994-08-10,V. VINITO CHOPHY,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+738,HGD01564,SHRI. KAKAVI V ZHIMO,1997-12-15,VIKISHO,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+739,HGD01565,SHRI. KEHUKHRUTO  MEDEO,1998-11-15,BESUVOYI MEDEO,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+740,HGD01567,SHRI. KELESITO  MERA,1997-12-28,TEYENE-O,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ANGAMI
+741,HGD01568,SHRI. KENEIZELIE  RULHO,1984-05-25,NEITUOLIE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ANGAMI
+742,HGD01569,SMTI. KERANARO  ,1995-01-28,LIMAMANGYANG,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+743,HGD01570,SMTI. KETENYA  SEMY,1993-11-30,ASHAMO SEMY,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+744,HGD01571,SHRI. KHAIKHO  KHAIM,1994-01-01,MELAI,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),KHIAMNIUNGAN
+745,HGD01572,SHRI. KHAIKHO  KHIAM,1996-10-08,OMSOM,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),KHIAMNIUNGAN
+746,HGD01573,SHRI. KHALO  KUPO,1984-04-26,LHIWEZU KUPA,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+747,HGD01574,SHRI. KHELUTO  CHOPHY,1993-04-17,KHAVISHE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+748,HGD01575,SHRI. KILANG TEMSU ,1991-03-07,RONGSENUNGSANG,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+749,HGD01576,SHRI. L.BIE  ,1984-10-28,LONGKHOI,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),CHANG
+750,HGD01577,SHRI. L.LONGSHEN  ,1991-11-19,LONGSHEN,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),POCHURY
+751,HGD01578,SHRI. LANPANGTSUBA  ,1987-10-17,LANUSASHI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),PHOM
+752,HGD01579,SHRI. LANURENBA  ,1995-12-13,PIYONGTEMJEN,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),AO
+753,HGD01580,SMTI. LANUSENLA  ,1992-10-17,KARINUNGBA,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+754,HGD01581,SHRI. LHUKHOTO  SHIJOH,1997-03-28,VALEPRA,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+755,HGD01583,SMTI. LITHUNGLO  ,1975-01-20,RIKHYO,F,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+756,HGD01584,SMTI. LOKTINUNGLA  ,1992-03-15,LT. ALEMKABA,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+757,HGD01586,SMTI. LOVITOLI H AYE,1987-12-23,HETOI AYE,F,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+758,HGD01588,SHRI. MANEI  PHOM,1995-11-11,WANGPHO,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),PHOM
+759,HGD01589,SHRI. MEDONGOZO  SAKHRIE,1998-06-15,VIRE SAKHIRE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ANGAMI
+760,HGD01593,SHRI. MOATEMSU Y JAMIR,1993-12-24,YASHIKABA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+761,HGD01594,SHRI. MUGHAKIVI K ,1999-03-15,KHUVIKHE ZHIMO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+762,HGD01595,SHRI. NAYANG KEJONG ,1997-08-17,YIMYUMONGBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+763,HGD01597,SHRI. NEILHOUPE  ,1992-06-06,DIKHA,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+764,HGD01600,SHRI. NILOTO  ,1996-08-21,HEKIHO ASSUMI,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+765,HGD01601,SHRI. NIPULO  CHISHI,1995-11-14,KIVITO CHISHI,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),SUMI
+766,HGD01603,SHRI. NUNGTILUEN  ,1986-07-21,IMLISUA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+767,HGD01604,SHRI. NUSHEYOYI  ,1998-12-10,LUTSOYI,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+768,HGD01605,SHRI. NUZO  RAKHO,1990-10-08,BESUVEYI,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+769,HGD01606,SHRI. ONGLISANGMAI  ,1996-02-15,NGAKUSOMBA,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),SANGTAM
+770,HGD01607,SHRI. ONITO V ZHIMO,1991-09-13,VIVOTO,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+771,HGD01609,SHRI. P.SHAHALO  ,1989-04-07,PHOALAM,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+772,HGD01610,SHRI. P.SHIAMBAI  ,1989-08-05,PUSHONG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+773,HGD01611,SHRI. PANGAI  KHEMAN,1993-01-04,MANJUN,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+774,HGD01612,SHRI. PHYODEMO O TSANGLAO,1996-08-26,ORIENIMO TSANGLAO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+775,HGD01614,SHRI. PUSHO  KHAIM,1995-10-11,PESUSHU,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),KHIAMNIUNGAN
+776,HGD01615,SHRI. RAJU  KUMAR,1999-05-16,MITHLESH,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),
+777,HGD01617,SHRI. RICKY  TEP,1997-01-26,JWENBU TEP,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+778,HGD01620,SHRI. RUKUVITO  TASE,1989-09-12,MEHOSA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ANGAMI
+779,HGD01621,SHRI. SAKOSOSANG  ,1987-12-27,YOHAN,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),SANGTAM
+780,HGD01622,SHRI. SAYANOCHET  ,1995-04-12,SENTILONGKUMER,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+781,HGD01623,SHRI. SELIMONG  SANGTAM,1988-11-15,SEIKYU SANGTAM,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),SANGTAM
+782,HGD01624,SHRI. SENENLO  ,1998-07-14,TILO KATH,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+783,HGD01625,SHRI. SENLIR  ,1998-06-11,TEMJENKABA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+784,HGD01626,SHRI. SHALO  KENT,1993-02-04,MOSES KENT,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+785,HGD01627,SHRI. SHEWOTO  Z,1995-07-07,ZHUKISHE,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),SUMI
+786,HGD01628,SHRI. SHOBINLO  SEMP,1995-10-07,JWENGA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+787,HGD01629,SHRI. SILAS  PATTON,1980-10-28,KHONCHIO PATTON,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+788,HGD01633,SHRI. TAKO WAPANG ,1988-05-15,MARNUNGSANG,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+789,HGD01634,SHRI. TAMALEPDEN  ,1991-08-06,LANUTEMSHI,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+790,HGD01636,SHRI. TEMJENSANGBA  ,1986-01-21,BANGLEMBA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+791,HGD01637,SHRI. TEMJENSONGBA  ,1981-03-10,WATI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),AO
+792,HGD01638,SHRI. TEZENLO   MESEN,1994-01-08,NONCHULO MESEN,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),RENGMA
+793,HGD01640,SHRI. THOCHI  ,1998-11-15,LT.HEKUTO CHOPHY,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+794,HGD01641,SHRI. THUJONGOTO  ,1998-12-27,ZASAVEYI,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+795,HGD01642,SHRI. THUNGO.   K,1995-07-20,KHUTO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),SANGTAM
+796,HGD01643,SHRI. TINGMAN  KONYAK,1998-06-21,WANGPHEI KONYAK,M,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+797,HGD01644,SHRI. TOVI  YEPTHOMI,1982-07-18,SAKIYE YEOTHOMI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+798,HGD01647,SMTI. TSUKNUNGMENLA  ,1992-07-08,MOAYABANG,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+799,HGD01648,SHRI. TUHNGBA  CHANG,1990-06-11,LAKCHEI,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),CHANG
+800,HGD01651,SHRI. VELAPRA  RINGA,1984-04-20,ABU RINGA,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+801,HGD01652,SHRI. VIESHEPE  LADU,1996-01-15,MESELHO LADU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+802,HGD01653,SHRI. VINATO  ,1986-05-02,NIHOSHE,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+803,HGD01654,SHRI. VITSHEKHO  MEKRO,1994-05-14,KETHOLESU MEKRO,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),CHAKHESANG
+804,HGD01655,SHRI. W. PATHOH  KONYAK,1996-02-02,WANGNYEI,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),KONYAK
+805,HGD01657,SHRI. WIDAUBO  ,1995-09-30,TALUBA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),POCHURY
+806,HGD01658,SHRI. YACHULO KATH ,1991-07-11,YAPTU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+807,HGD01659,SHRI. YANGSONG CHINGSONG ,1998-05-21,SANGLEM,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),SANGTAM
+808,HGD01660,SHRI. YANRENTHUNG  KITHAN,1994-07-10,LT. WONIMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+809,HGD01661,SHRI. YONGPA KONYAK ,1998-02-02,HAMYEI KONYAK,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+810,HGD01662,SHRI. ZACHAMO  LOTHA,1990-01-05,S.TSENSAO LOTHA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),LOTHA
+811,HGD01663,SHRI. ZHEHOTO I CHOPHY,1983-08-01,IZHETO,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+812,HGD01664,SHRI. ZHEKUTO  ,1998-09-18,HEKIYE,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+813,HGD01665,SHRI. ZUBENTHUNG  ,1996-06-23,TRENTHUNG,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),LOTHA
+814,HGD01666,SHRI. ZUYALO SEB ,1989-12-01,NEYASHU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+815,HGD01668,SHRI. TEMPHONG  KONYAK,1985-04-05,PHONGSHONG,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),KONYAK
+816,HGD01670,SHRI. MHONLUMO  NGULLIE,1977-12-12,BICHAMO NGULLIE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+817,HGD01672,SHRI. L. MHOMO  ,1979-06-06,LONGTSU,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+818,HGD01673,SHRI. ZUBEMO  ,1986-10-10,RIBEMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+819,HGD01674,SHRI. N. THUNGDEMO  PATTON,1976-02-04,NCHIO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+820,HGD01675,SHRI. N. JAMES  ,1986-09-21,NRIDAMO,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+821,HGD01677,SHRI. KAKHEHO  YEPTHO,1987-11-06,VIKUGHA YEPTHO,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+822,HGD01678,SHRI. AHOTO  ,1985-11-19,NIHEKHU SUMI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+823,HGD01679,SHRI. NILOPU  CHISHI,1997-05-12,AMENTO CHISHI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+824,HGD01680,SHRI. M. ANGANG  KONYAK,1980-11-02,MANYOK,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+825,HGD01681,SHRI. KATOHO  JAKHA,1995-11-10,KUGHAVI JAKHA,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+826,HGD01683,SHRI. X. HUKHATO  CHISHI,1969-04-02,XUKUKHE CHISHI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+827,HGD01684,SHRI. HENRY  MARAK,1983-03-03,LT. ABRIL SANGMA,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),GARO
+828,HGD01686,SMTI. NYANTHANLE  KATH,1985-06-01,KALIMU,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),RENGMA
+829,HGD01687,SMTI. JUNGAM Y ,1996-11-25,YALEI,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),KHIAMNIUNGAN
+830,HGD01690,SMTI. CHEMBILA SANGTAM ,1998-02-16,H. YONGPITONG SANGTAM,F,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),SANGTAM
+831,HGD01691,SMTI. L. LONGSHEN  ,1984-03-22,LAKCHEI CHANG,F,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),CHANG
+832,HGD01694,SHRI. PHANNONGKIU Y ,1988-02-06,YANSUKIU TIKHIR,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),Tikhir
+833,HGD01695,SHRI. Y. MANGYANGNUNGSHU  CHANG,1987-11-22,YONGI CHANG,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),CHANG
+834,HGD01697,SHRI. M. THRONGTIBA  ,1990-10-30,MUTHINGMONG SANGTAM,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),SANGTAM
+835,HGD01698,SHRI. AMEEN KHEMPRAI ,1985-03-22,GAURANGA KHEMPRAI,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),KACHARI
+836,HGD01699,SMTI. KHINILE  MAGH,1997-04-21,NSAMO MAGH,F,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+837,HGD01701,SHRI. ABEMO E YANTHAN,1997-07-17,EZANTHUNG YANTHAN,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+838,HGD01702,SMTI. RUKUVOLU  KHAMO,1998-02-18,NUVESIYI KHAMO,F,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ANGAMI
+839,HGD01703,SHRI. HUSHETO  SEMA,1991-11-13,TOVIHO SEMA,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+840,HGD01705,SMTI. LORENBENI  YANTHAN,1990-06-07,WONTHO YANTHAN,F,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+841,HGD01706,SMTI. ZUCHANBENI  EZUNG,1995-12-12,NYIMTSEMO EZUNG,F,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+842,HGD01707,SMTI. MELIETE U  MEDO,1992-09-19,NEITSHULHI MEDO,F,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),ANGAMI
+843,HGD01708,SHRI. CHONGSHENMAIBOU M CHANG,1995-09-15,H.MANCHEM,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),CHANG
+844,HGD01710,SMTI. KOTOLI  K  ,1999-06-02,KHETOSHE,F,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+845,HGD01720,SHRI. T. NYOMPO  CHANG,1994-01-28,LT. THUNGTY CHANG,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),CHANG
+846,HGD01721,SHRI. UTTAM KUMAR CHETRY,1982-01-19,TEK BAHADUR CHETRY,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),
+847,HGD01723,SHRI. SENTIMO  KATH,1988-01-12,KEZHUTHANG KATH,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+848,HGD01724,SHRI. LIMATHUNG  ,1992-02-10,SULAMO PATTON,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),
+849,HGD01725,SHRI. HEKAI H  ZHIMO,1987-06-15,HUKHEVI ZHIMO,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),SUMI
+850,HGD01726,SMTI. YENNON K  ,1995-11-04,KHEKNYIE,F,"Dy. Controller CD & Dist. Comdt. HG, Mon",Mon,Security Guard (16150),KONYAK
+851,HGD01727,SMTI. BENDANGSENLA  ,1990-05-12,LT. SHILUMONGBA,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),AO
+852,HGD01738,SHRI. LOVITO  AWOMI,1991-12-15,MITHICHE AWOMI,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),SUMI
+853,HGD01739,SHRI. SEKHUMBA  SANGTAM,1988-12-12,MULINGBA SANGTAM,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),SANGTAM
+854,HGD01740,SMTI. VEDULU  VENUH,1997-08-01,MUDONUYI VENUH,F,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),
+855,HGD01767,SMTI. ANGPU S  PHOM,1998-04-25,SHOKPONG PHOM,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),PHOM
+856,HGD01768,SMTI. N. YEMKON  PHOM,1990-12-08,NOCHI PHOM,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),PHOM
+857,HGD01769,SHRI. A. NGANLEI  PHOM,1994-03-18,M. AYAU PHOM,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),PHOM
+858,HGD01770,SHRI. H. NOKLAK  PHOM,1990-01-07,HONGPA,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),PHOM
+859,HGD01771,SHRI. Y. APONG  PHOM,1983-03-15,YANNYEI PHOM,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),PHOM
+860,HGD01772,SHRI. L. DAUYAN  PHOM,1987-02-14,LUNGSHAU PHOM,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),PHOM
+861,HGD01773,SHRI. DUNPUN  ,1998-06-22,KENGCHAM,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),ZELIANG
+862,HGD01774,SHRI. WIDUNCHAP  ,1994-02-19,AKHUANG,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),ZELIANG
+863,HGD01775,SHRI. ITEUTUI  RANGKAU,2000-01-01,IKIELU RANGKAU,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),ZELIANG
+864,HGD01776,SMTI. HEISIBEULEI  NEUME,1998-01-21,KIAISING,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),ZELIANG
+865,HGD01777,SHRI. ARO  SAMDING,1992-08-06,KISIE,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),ZELIANG
+866,HGD01778,SMTI. KEDOSENUO  MEDOM,1993-07-06,KECHANGULIE,F,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),ANGAMI
+867,HGD01779,SMTI. W. APANLA  ,1989-08-17,R. WONGTSUKIU,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),Tikhir
+868,HGD01780,SMTI. K. SUPANSHI  ,1995-11-19,K. KIUSUMONG,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),Tikhir
+869,HGD01781,SHRI. LONGSHAH  ,1996-02-03,PHUHKHAM,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),KONYAK
+870,HGD01782,SHRI. MANTICK  ,1996-09-02,BENTICK KONYAK,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),KONYAK
+871,HGD01783,SHRI. SATSABA Y  SANGTAM,1997-04-05,YANGCHOPI SANGTAM,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SANGTAM
+872,H-HGD00001,SHRI. GWASHENLO  SEB,1998-11-19,ISSAC SEB,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+873,H-HGD00003,SHRI. TESIPVU  KATH,1992-11-14,SHUTO KATH,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+874,H-HGD00004,SHRI. SINILO  TEP,1997-12-09,KEGWANYE TEP,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+875,H-HGD00005,SHRI. KHIHILO  KATH,1987-03-11,KHONGA KATH,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+876,H-HGD00006,SHRI. LICHUMBEMO  P NGULLIE,1996-09-14,PHYOCHIBEMO NGULLIE,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),LOTHA
+877,H-HGD00007,SMTI. KEKRONOKULE  CHAYA,1992-04-11,SWEYIESUL CHAYA,F,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),
+878,H-HGD00008,SMTI. KHILE  APON,1993-10-19,SUKHATO APON,F,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),
+879,H-HGD00009,SMTI. LYDIA  SEMY,1997-11-14,APHAMO SEMY,F,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),
+880,H-HGD00010,SHRI. DIGUMBO  ,1997-12-18,ASOIBO,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),
+881,H-HGD00011,SHRI. TONGPANGWATI  ,1998-08-19,TEMSUYANGER,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),
+882,H-HGD00012,SMTI. TSUKTINUNGLA  ,1992-08-17,IMKONGNUKBA AO,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),
+883,H-HGD00013,SHRI. RENCHITHUNG  P NGULLIE,1996-08-04,R PHYOBEMO NGULLIE,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),
+884,H-HGD00014,SHRI. ATOHIKA  LABO,1992-09-10,S. BOKATO,M,Dy. Controller CD & Dist. Comdt. HG. Dimapur,Dimapur,Security Guard (16150),
+885,H-HGD00015,SHRI. ZAKAHO  ,1996-06-27,KHEHOSHE,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),
+886,H-HGD00016,SHRI. AKUTO  G YEPTHO,1994-11-11,GHOSHITO YEPTHO,M,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),
+887,H-HGD00017,SMTI. LIMEKA T  ,2000-02-25,TOKUGHA CHOPHY,F,Dy. Controller CD & Dist. Comdt. HG.Zunheboto,Zunheboto,Security Guard (16150),
+888,H-HGD00018,SHRI. NUCHIHU  RHAKHO,1999-09-20,KHUVOTSO RHAKHO,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+889,H-HGD00020,SMTI. NEIWETSOU  RINGA,1985-11-04,TASELHI MERO,F,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+890,H-HGD00021,SHRI. L. LUSHA  ,1988-10-22,LONGKHOI,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),
+891,H-HGD00022,SHRI. T. KYUTHRONGSE  SANGTAM,1997-08-18,THSALONGSE SANGTAM,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),
+892,H-HGD00024,SMTI. Z. TSURILA  ,1995-03-15,ZEWONG YIM,F,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),
+893,H-HGD00025,SHRI. H MANAK  PHOM,1995-10-09,HAMTHAI,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),
+894,H-HGD00026,SMTI. VANNUNG  L PHOM,1995-09-01,LT. LONGDAU,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),
+895,H-HGD00027,SHRI. SISENLO  JEMU,1989-01-11,YITHONG JEMU,M,District Commandant CD & HG Kohima,Kohima,Security Guard (16150),RENGMA
+896,H-HGD00028,SHRI. T. MULAI  ,1992-06-12,TSUHING,M,Dy. Controller CD & Dist. Comdt. HG.Tuensang,Tuensang,Security Guard (16150),KHIAMNIUNGAN
+897,H-HGD00029,SMTI. Y. NARSEN  TSOPOE,1989-04-04,YANTSUNGO TSOPOE,F,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),LOTHA
+898,H-HGD00030,SHRI. KHRUZOTO  KEYHO,1995-11-18,MATU KEYHO,M,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+899,H-HGD00031,SHRI. PUKHAHO  SUMI,1983-11-28,TOHOKHU,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),SUMI
+900,H-HGD00032,SMTI. VELAYILU  ,1989-11-02,SOKHAYI ,F,Dy. Controller CD & Dist. Comdt. HG. Phek,Phek,Security Guard (16150),CHAKHESANG
+901,H-HGD00033,SMTI. KEHEIRUTSILE  THOU,1996-10-27,LT. ALIA THOU,F,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),ZELIANG
+902,H-HGD00035,SHRI. HERAKULUNG  KAURING,1999-10-26,LUIKIEHEI KAURING,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),ZELIANG
+903,H-HGD00036,SHRI. LANUSANGBA  ,1990-01-02,TSUKTIKABA,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),
+904,H-HGD00037,SHRI. PURSANEN AO  ,1990-02-07,WAIPOKBA AO,M,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),
+905,H-HGD00038,SMTI. SOYIMKUMLA  ,1988-02-03,IMOTEMJEN,F,Dy. Controller CD & Dist. Comdt. HG. Mokokchung,Mokokchung,Security Guard (16150),
+906,H-HGD00039,SHRI. KUMLANTHUNG K  YANTHAN,1989-11-01,KHONTHUNGO YANTHAN,M,Dy. Controller CD & Dist. Comdt. HG. Wokha,Wokha,Security Guard (16150),
+907,H-HGD00040,SHRI. HENGIMPEUBE  PUTLANG,1999-03-13,LIALU PUTLANG,M,"Central Training Institute CD & HG,  Dimapur",Dimapur,Security Guard (16150),
