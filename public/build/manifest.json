@@ -1,0 +1,58 @@
+{
+  "_modals-B-JRXVYP.js": {
+    "file": "assets/modals-B-JRXVYP.js",
+    "name": "modals"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-BeopsB42.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-mSm7cUeB.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "public/assets/img/banner-grayscale.jpg": {
+    "file": "assets/banner-grayscale-CYfLSyry.jpg",
+    "src": "public/assets/img/banner-grayscale.jpg"
+  },
+  "public/assets/img/banner.jpg": {
+    "file": "assets/banner-dShkYjr7.jpg",
+    "src": "public/assets/img/banner.jpg"
+  },
+  "public/assets/img/naga-back.jpg": {
+    "file": "assets/naga-back-Du7TAUML.jpg",
+    "src": "public/assets/img/naga-back.jpg"
+  },
+  "public/assets/img/tribal.png": {
+    "file": "assets/tribal-9F3rzoYJ.png",
+    "src": "public/assets/img/tribal.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-CRfG6LRE.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/dashboard.css": {
+    "file": "assets/dashboard-m0puWH2z.css",
+    "src": "resources/css/dashboard.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CuAVMWED.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_modals-B-JRXVYP.js"
+    ]
+  },
+  "resources/js/dashboard.js": {
+    "file": "assets/dashboard-CNSeZGnL.js",
+    "name": "dashboard",
+    "src": "resources/js/dashboard.js",
+    "isEntry": true,
+    "imports": [
+      "_modals-B-JRXVYP.js"
+    ]
+  }
+}
