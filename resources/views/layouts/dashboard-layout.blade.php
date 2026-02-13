@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>HGCD SMART APP</title>
+    <title>HGCD • Smart Command Center</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -28,9 +28,14 @@
                             </path>
                         </svg>
                     </button>
-                    <a href="{{ url('/') }}" class="flex ms-2 md:me-24">
-                        <span class="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap text-sky-700">HGCD
-                            <span class="hidden font-thin md:inline text-slate-400">Dashboard</span>
+                    <a href="{{ url('/') }}" class="flex items-center gap-3 ms-2 md:me-24">
+                        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-sky-600 to-cyan-500 text-white flex items-center justify-center font-bold shadow-md">
+                            HG
+                        </div>
+                        <div class="leading-tight">
+                            <span class="block text-xl font-semibold text-slate-900">HGCD</span>
+                            <span class="block text-xs font-medium tracking-[0.18em] uppercase text-slate-500">Smart Command Center</span>
+                        </div>
                     </a>
                 </div>
                 <div class="flex items-center">
