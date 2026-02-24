@@ -123,6 +123,23 @@
                                         </td>
                                         <td class="px-4 py-3 text-center">
                                             <div class="flex justify-center gap-2">
+                                                @if ($a->photoVerifications->count() > 0)
+                                                    <button
+                                                        wire:click="$dispatch('showModal', {data: {'alias' : 'modals.view-photos', 'params' : {'assignmentID': {{ $a->id }}}, 'size': '5', 'title': 'Verification Photos'}})"
+                                                        class="relative px-3 py-1.5 bg-sky-50 text-sky-700 rounded-lg text-xs font-semibold hover:bg-sky-100 flex items-center gap-1">
+                                                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor"
+                                                            viewBox="0 0 24 24">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="2"
+                                                                d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                                        </svg>
+                                                        Photos
+                                                        <span
+                                                            class="absolute -top-2 -right-2 flex h-4 w-4 items-center justify-center rounded-full bg-sky-500 text-[10px] text-white shadow-sm">
+                                                            {{ $a->photoVerifications->count() }}
+                                                        </span>
+                                                    </button>
+                                                @endif
                                                 <button
                                                     wire:click="$dispatch('showModal', {data: {'alias' : 'modals.edit-assignment', 'params' : {'assignmentID': {{ $a->id }}}, 'size': '4', 'title': 'Edit Assignment'}})"
                                                     class="px-3 py-1.5 bg-slate-900 text-white rounded-lg text-xs font-semibold hover:bg-slate-800">
