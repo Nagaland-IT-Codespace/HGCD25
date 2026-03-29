@@ -14,6 +14,7 @@ class AddEditUser extends Component
     public $email;
     public $role;
     public $mobile;
+    public $empCode;
 
     public function mount($userID = null)
     {
@@ -24,6 +25,7 @@ class AddEditUser extends Component
             $this->email = $user->email;
             $this->role = $user->role;
             $this->mobile = $user->mobile;
+            $this->empCode = $user->emp_code;
         }
     }
 
@@ -46,6 +48,7 @@ class AddEditUser extends Component
                     'role' => $this->role,
                     'mobile' => $this->mobile,
                     'password' => Hash::make('default@123#'), // Default password, should be changed later
+                    'emp_code' => $this->empCode,
                 ]
             );
 

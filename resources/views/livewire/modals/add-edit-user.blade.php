@@ -18,6 +18,15 @@
     </div>
 
     <div class="grid grid-cols-1 gap-4">
+        {{-- empCode --}}
+        <label class="space-y-1">
+            <span class="text-sm font-medium text-slate-700">Emp Code <span class="text-red-500">*</span></span>
+            <input type="text" id="emp_code" wire:model="emp_code"
+                class="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm focus:ring-2 focus:ring-sky-500 focus:outline-none" required />
+            @error('emp_code')
+                <span class="text-red-500 text-sm">{{ $message }}</span>
+            @enderror
+        </label>
         <label class="space-y-1">
             <span class="text-sm font-medium text-slate-700">Full Name <span class="text-red-500">*</span></span>
             <input type="text" id="name" wire:model="name"

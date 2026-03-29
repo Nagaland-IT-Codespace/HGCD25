@@ -44,6 +44,7 @@
                 <thead class="bg-slate-50 text-slate-600 uppercase text-xs">
                     <tr>
                         <th class="px-4 py-3 text-left">#</th>
+                        <th class="px-4 py-3 text-left">Emp Code</th>
                         <th class="px-4 py-3 text-left">Name</th>
                         <th class="px-4 py-3 text-left">Email</th>
                         <th class="px-4 py-3 text-left">Mobile</th>
@@ -57,6 +58,7 @@
                             <td class="px-4 py-3 text-slate-500">
                                 {{ ($users->currentPage() - 1) * $users->perPage() + $index + 1 }}
                             </td>
+                            <td class="px-4 py-3 font-medium text-slate-900">{{ $user->emp_code }}</td>
                             <td class="px-4 py-3 font-medium text-slate-900">{{ $user->name }}</td>
                             <td class="px-4 py-3 font-medium text-slate-800">{{ $user->email }}</td>
                             <td class="px-4 py-3 text-slate-600">
