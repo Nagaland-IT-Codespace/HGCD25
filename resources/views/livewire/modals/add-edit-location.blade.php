@@ -33,6 +33,15 @@
             <span class="text-red-600 text-sm">{{ $message }}</span>
         @enderror
     </label>
+    {{-- location_call_sign --}}
+    <label class="space-y-1">
+        <span class="text-sm font-medium text-slate-700">Call Sign</span>
+        <input type="text" id="location_call_sign" wire:model="location_call_sign"
+            class="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm focus:ring-2 focus:ring-sky-500 focus:outline-none" />
+        @error('location_call_sign')
+            <span class="text-red-600 text-sm">{{ $message }}</span>
+        @enderror
+    </label>
 
     <div class="flex justify-end gap-3 pt-2">
         <button wire:click="$emit('closeModal')"

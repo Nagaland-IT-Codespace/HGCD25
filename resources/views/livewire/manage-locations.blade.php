@@ -47,6 +47,7 @@
                         <th class="px-4 py-3 text-left">Location Name</th>
                         <th class="px-4 py-3 text-left">Address</th>
                         <th class="px-4 py-3 text-left">District</th>
+                        <th class="px-4 py-3 text-left">Call Sign</th>
                         <th class="px-4 py-3 text-center">Actions</th>
                     </tr>
                 </thead>
@@ -60,6 +61,9 @@
                             <td class="px-4 py-3 text-slate-700">{{ $location->address }}</td>
                             <td class="px-4 py-3 text-slate-600">
                                 {{ $location->district->name }}
+                            </td>
+                            <td class="px-4 py-3 text-slate-600">
+                                {{ $location->location_call_sign ?? 'N/A' }}
                             </td>
                             <td class="px-4 py-3 text-center">
                                 <div class="flex justify-center gap-2">

@@ -13,6 +13,7 @@ class AddEditLocation extends Component
     public $name;
     public $address;
     public $district_id;
+    public $location_call_sign;
 
     public function mount($locationID = null)
     {
@@ -22,6 +23,7 @@ class AddEditLocation extends Component
             $this->name = $loc->name;
             $this->address = $loc->address;
             $this->district_id = $loc->district_id;
+            $this->location_call_sign = $loc->location_call_sign;
         }
     }
 
@@ -31,6 +33,7 @@ class AddEditLocation extends Component
             'name' => 'required|unique:location_masters,name,' . $this->locationID,
             'address' => 'required',
             'district_id' => 'required|exists:district_masters,id',
+            'location_call_sign' => 'nullable|string|max:255',
         ]);
 
         try {
@@ -41,6 +44,8 @@ class AddEditLocation extends Component
                     'name' => $this->name,
                     'address' => $this->address,
                     'district_id' => $this->district_id,
+                    'location_call_sign' => $this->location_call_sign,
+
                 ]
             );
             DB::commit();
