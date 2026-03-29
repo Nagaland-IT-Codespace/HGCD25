@@ -28,9 +28,12 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/assignments/employee/{employee_id}', [ApiAssignmentsController::class, 'getIndividualAssignments']);
     Route::post('/assignments/add-assignment', [ApiAssignmentsController::class, 'addAssignment']);
 
+    Route::get('/employees/duties/{emp_code}', [ApiAssignmentsController::class, 'getDutiesForEmployee']);
+
     Route::prefix('reassignment-requests')->group(function () {
-        Route::get('/', [ReassignmentRequestController::class, 'index']);
         Route::post('/', [ReassignmentRequestController::class, 'store']);
+        Route::get('/incoming', [ReassignmentRequestController::class, 'getIncomingRequests']);
+        Route::get('/my-requests', [ReassignmentRequestController::class, 'getMyRequests']);
         Route::get('/{reassignment_request}', [ReassignmentRequestController::class, 'show']);
         Route::put('/{reassignment_request}', [ReassignmentRequestController::class, 'update']);
         Route::delete('/{reassignment_request}', [ReassignmentRequestController::class, 'destroy']);

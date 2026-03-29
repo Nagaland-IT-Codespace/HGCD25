@@ -12,21 +12,6 @@ use Illuminate\Support\Facades\Validator;
 class ReassignmentRequestController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        $user = Auth::user();
-        $requests = ReassignmentRequest::where('requester_emp_code', $user->emp_code)
-            ->orWhere('requested_to_emp_code', $user->emp_code)
-            ->with(['assignment', 'requester', 'requestedTo'])
-            ->latest()
-            ->get();
-
-        return response()->json($requests);
-    }
-
-    /**
      * Store a newly created resource in storage.
      */
     public function store(Request $request)
@@ -61,6 +46,28 @@ class ReassignmentRequestController extends Controller
         ]);
 
         return response()->json($reassignmentRequest, 201);
+    }
+
+    public function getIncomingRequests(Request $request)
+    {
+        $user = Auth::user();
+        $requests = ReassignmentRequest::where('requested_to_emp_code', $user->emp_code)
+            ->with(['assignment', 'requester', 'requestedTo'])
+            ->latest()
+            ->get();
+
+        return response()->json($requests);
+    }
+
+    public function getMyRequests(Request $request)
+    {
+        $user = Auth::user();
+        $requests = ReassignmentRequest::where('requester_emp_code', $user->emp_code)
+            ->with(['assignment', 'requester', 'requestedTo'])
+            ->latest()
+            ->get();
+
+        return response()->json($requests);
     }
 
     /**

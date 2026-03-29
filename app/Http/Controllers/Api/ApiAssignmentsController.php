@@ -221,4 +221,19 @@ class ApiAssignmentsController extends Controller
             ], 500);
         }
     }
+
+    public function getDutiesForEmployee(Request $request, $emp_code)
+    {
+        $employee = \App\Models\Employee::where('emp_code', $emp_code)->first();
+
+        if (!$employee) {
+            return response()->json(['message' => 'Employee not found'], 404);
+        }
+
+        $assignments = Assignment::where('employee_id', $employee->id)
+            ->with(['location.district'])
+            ->get();
+
+        return response()->json($assignments);
+    }
 }
