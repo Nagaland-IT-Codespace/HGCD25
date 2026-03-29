@@ -4,6 +4,7 @@ use App\Http\Controllers\Api\ApiAssignmentsController;
 use App\Http\Controllers\Api\ApiAuthController;
 use App\Http\Controllers\Api\ApiEmployeeController;
 use App\Http\Controllers\Api\ApiUtilsController;
+use App\Http\Controllers\Api\ReassignmentRequestController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -26,4 +27,12 @@ Route::middleware('auth:sanctum')->group(function () {
 
     Route::get('/assignments/employee/{employee_id}', [ApiAssignmentsController::class, 'getIndividualAssignments']);
     Route::post('/assignments/add-assignment', [ApiAssignmentsController::class, 'addAssignment']);
+
+    Route::prefix('reassignment-requests')->group(function () {
+        Route::get('/', [ReassignmentRequestController::class, 'index']);
+        Route::post('/', [ReassignmentRequestController::class, 'store']);
+        Route::get('/{reassignment_request}', [ReassignmentRequestController::class, 'show']);
+        Route::put('/{reassignment_request}', [ReassignmentRequestController::class, 'update']);
+        Route::delete('/{reassignment_request}', [ReassignmentRequestController::class, 'destroy']);
+    });
 });

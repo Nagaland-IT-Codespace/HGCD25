@@ -21,22 +21,24 @@ class ApiAuthController extends Controller
     public function login(Request $request)
     {
         $request->validate([
-            'email' => ['required', 'string', 'email'],
+            'login' => ['required', 'string'],
             'password' => ['required', 'string'],
         ]);
 
-        $user = User::where('email', $request->email)->first();
+        $login = $request->input('login');
 
-        if (! $user || ! Hash::check($request->password, $user->password)) {
+        $user = User::where('email', $login)->orWhere('emp_code', $login)->first();
+
+        if (!$user || !Hash::check($request->password, $user->password)) {
             throw ValidationException::withMessages([
-                'email' => [__('auth.failed')],
+                'login' => [__('auth.failed')],
             ]);
         }
 
-         $user->tokens()->where('name', $request->email)->delete();
+        $user->tokens()->where('name', $user->email)->delete();
 
         return response()->json([
-            'token' => $user->createToken($request->email)->plainTextToken,
+            'token' => $user->createToken($user->email)->plainTextToken,
             'user' => $user,
         ]);
     }
