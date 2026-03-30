@@ -7,6 +7,7 @@ use App\Models\Assignment;
 use App\Models\ReassignmentRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
 
 class ReassignmentRequestController extends Controller
@@ -52,6 +53,7 @@ class ReassignmentRequestController extends Controller
     {
         $user = Auth::user();
         $requests = ReassignmentRequest::where('requested_to_emp_code', $user->emp_code)
+            ->where('status', 'pending')
             ->with(['assignment', 'requester', 'requestedTo'])
             ->latest()
             ->get();
@@ -113,6 +115,7 @@ class ReassignmentRequestController extends Controller
             $assignment = $reassignmentRequest->assignment;
             // The user who accepted the request
             $newEmployee = $reassignmentRequest->requestedTo->employee;
+            Log::info("Reassigning assignment {$assignment->id} to employee {$newEmployee->id}");
             if ($newEmployee) {
                 $assignment->employee_id = $newEmployee->id;
                 $assignment->save();
