@@ -236,4 +236,33 @@ class ApiAssignmentsController extends Controller
 
         return response()->json($assignments);
     }
+    public function getSingleAssignment(Request $request, $id)
+    {
+        $assignment = Assignment::with(['employee', 'location.district', 'photoVerifications'])
+            ->find($id);
+
+        if (!$assignment) {
+            return response()->json(['message' => 'Assignment not found'], 404);
+        }
+
+        return response()->json([
+            'id' => $assignment->id,
+            'name' => $assignment->employee ? $assignment->employee->full_name : 'N/A',
+            'date_of_assignment' => $assignment->date_of_assignment,
+            'status' => $assignment->status,
+            'district_name' => $assignment->location && $assignment->location->district
+                ? $assignment->location->district->name
+                : 'N/A',
+            'location_name' => $assignment->location ? $assignment->location->name : 'N/A',
+            'photo_verifications' => $assignment->photoVerifications->map(function ($photo) {
+                return [
+                    'id' => $photo->id,
+                    'photo_url' => url(Storage::url($photo->photo_url)),
+                    'verified_by' => $photo->verified_by,
+                    'remarks' => $photo->remarks,
+                    'created_at' => Carbon::parse($photo->created_at)->toDateTimeString(),
+                ];
+            }),
+        ]);
+    }
 }
