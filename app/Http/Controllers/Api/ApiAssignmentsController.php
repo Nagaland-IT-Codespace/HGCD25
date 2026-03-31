@@ -240,6 +240,12 @@ class ApiAssignmentsController extends Controller
     {
         $assignment = Assignment::with(['employee', 'location.district', 'photoVerifications'])
             ->find($id);
+        $user = Auth::user();
+        Log::info('User ' . $user->id . ' is viewing assignment ' . $assignment->id);
+        if($assignment->employee->id === $user->employee->id){
+            $assignment->update(['is_viewed' => true]);
+
+        }
 
         if (!$assignment) {
             return response()->json(['message' => 'Assignment not found'], 404);
@@ -254,6 +260,7 @@ class ApiAssignmentsController extends Controller
                 ? $assignment->location->district->name
                 : 'N/A',
             'location_name' => $assignment->location ? $assignment->location->name : 'N/A',
+            'location_call_sign' => $assignment->location ? $assignment->location->location_call_sign : 'N/A',
             'photo_verifications' => $assignment->photoVerifications->map(function ($photo) {
                 return [
                     'id' => $photo->id,

@@ -11,6 +11,13 @@
                 </a>
             </li>
             <li>
+                <a href="{{ route('listAssignments') }}"
+                    class="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group">
+                    <i class="bi bi-list-task text-gray-700"></i>
+                    <span class="ms-3">All Assignments</span>
+                </a>
+            </li>
+            <li>
                 <button type="button"
                     class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
                     aria-controls="dropdown-example" data-collapse-toggle="dropdown-example">

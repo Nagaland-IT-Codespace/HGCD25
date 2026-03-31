@@ -57,6 +57,7 @@ Route::middleware('auth')->group(function () {
     Route::get('manageLocations', ManageLocations::class)->name('manageLocations');
     Route::get('manageEmployees', ManageEmployees::class)->name('manageEmployees');
     Route::get('viewIndividualAssignments/{empID}', ViewIndividualAssignments::class)->name('viewIndividualAssignments');
+    Route::get('listAssignments', \App\Livewire\ListAssignments::class)->name('listAssignments');
 });
 
 require __DIR__ . '/auth.php';
